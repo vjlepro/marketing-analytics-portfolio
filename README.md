@@ -12,11 +12,11 @@
 
 ## 🌐 Live Dashboard
 
-**[→ View Interactive Dashboard](https://www.perplexity.ai/computer/a/marketiq-marketing-analytics-p-yH_sDaC_TUKyNvIlEi3IFw)**
+**[→ View Interactive Dashboard](https://marketing-analytics-portfolio-steel.vercel.app)**
 
 Dark-navy analytics interface with 5 interactive pages — Overview, MTA Attribution, CAC & LTV, MMM Budget Optimizer, and Data Sources.
 
-> **Hosting note:** The dashboard is deployed as a static React app. See [Deployment](#-deployment) for instructions to host your own copy for free on Vercel or Netlify.
+> **Hosting note:** Deployed permanently on Vercel — free, no expiry, auto-deploys on every git push. Fork this repo and deploy your own copy in minutes.
 
 ---
 
@@ -225,7 +225,7 @@ def hill_transform(x, k, n=2):
 4. **MMM Optimizer** — Adstock/saturation visualizations, budget reallocation waterfall
 5. **Data Sources** — Platform connection guide with real API field references
 
-**Live URL:** [marketiq-marketing-analytics](https://www.perplexity.ai/computer/a/marketiq-marketing-analytics-p-yH_sDaC_TUKyNvIlEi3IFw)
+**Live URL:** [marketiq-marketing-analytics](https://marketing-analytics-portfolio-steel.vercel.app)
 
 > To self-host: see [Deployment](#-deployment) below.
 
