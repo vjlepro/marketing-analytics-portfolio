@@ -6,7 +6,7 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![React](https://img.shields.io/badge/React-Dashboard-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
-[![Open Issues](https://img.shields.io/github/issues/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio?style=flat-square)](https://github.com/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/issues)
+[![Open Issues](https://img.shields.io/github/issues/vjlepro/marketing-analytics-portfolio?style=flat-square)](https://github.com/vjlepro/marketing-analytics-portfolio/issues)
 
 ---
 
@@ -117,7 +117,7 @@ All datasets use **exact field names** from real platform APIs — so the same E
 ### 1. Multi-Touch Attribution (MTA)
 
 **File:** [`notebooks/02_mta_model.ipynb`](notebooks/02_mta_model.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/blob/main/notebooks/02_mta_model.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vjlepro/marketing-analytics-portfolio/blob/main/notebooks/02_mta_model.ipynb)
 
 Implements **7 attribution models** side-by-side to show how model choice dramatically impacts channel credit:
 
@@ -154,7 +154,7 @@ def shapley_monte_carlo(channel, all_channels, conversion_func, n_perms=500):
 ### 2. Customer Acquisition Cost & LTV
 
 **File:** [`notebooks/03_cac_model.ipynb`](notebooks/03_cac_model.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/blob/main/notebooks/03_cac_model.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vjlepro/marketing-analytics-portfolio/blob/main/notebooks/03_cac_model.ipynb)
 
 Full CAC/LTV framework including channel health classification, cohort retention curves, and payback period analysis.
 
@@ -179,7 +179,7 @@ Full CAC/LTV framework including channel health classification, cohort retention
 ### 3. Marketing Mix Model (MMM)
 
 **File:** [`notebooks/04_mmm_model.ipynb`](notebooks/04_mmm_model.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/blob/main/notebooks/04_mmm_model.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vjlepro/marketing-analytics-portfolio/blob/main/notebooks/04_mmm_model.ipynb)
 
 Robyn-inspired MMM with geometric adstock decay, Hill saturation curves, OLS regression, and SLSQP budget optimization.
 
@@ -237,10 +237,10 @@ All four notebooks render natively inside GitHub. Click any notebook file to vie
 
 | Notebook | Description | Colab |
 |---|---|---|
-| [`01_data_generation.ipynb`](notebooks/01_data_generation.ipynb) | Platform data synthesis with real API schemas | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/blob/main/notebooks/01_data_generation.ipynb) |
-| [`02_mta_model.ipynb`](notebooks/02_mta_model.ipynb) | All 7 MTA models with visual comparison | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/blob/main/notebooks/02_mta_model.ipynb) |
-| [`03_cac_model.ipynb`](notebooks/03_cac_model.ipynb) | CAC, LTV, cohort retention, payback periods | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/blob/main/notebooks/03_cac_model.ipynb) |
-| [`04_mmm_model.ipynb`](notebooks/04_mmm_model.ipynb) | Adstock + Hill saturation + budget optimizer | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio/blob/main/notebooks/04_mmm_model.ipynb) |
+| [`01_data_generation.ipynb`](notebooks/01_data_generation.ipynb) | Platform data synthesis with real API schemas | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vjlepro/marketing-analytics-portfolio/blob/main/notebooks/01_data_generation.ipynb) |
+| [`02_mta_model.ipynb`](notebooks/02_mta_model.ipynb) | All 7 MTA models with visual comparison | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vjlepro/marketing-analytics-portfolio/blob/main/notebooks/02_mta_model.ipynb) |
+| [`03_cac_model.ipynb`](notebooks/03_cac_model.ipynb) | CAC, LTV, cohort retention, payback periods | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vjlepro/marketing-analytics-portfolio/blob/main/notebooks/03_cac_model.ipynb) |
+| [`04_mmm_model.ipynb`](notebooks/04_mmm_model.ipynb) | Adstock + Hill saturation + budget optimizer | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vjlepro/marketing-analytics-portfolio/blob/main/notebooks/04_mmm_model.ipynb) |
 
 > **One-click execution:** Click any Colab badge → File → Save a copy in Drive → Run All.  
 > All dependencies are installed in the first cell of each notebook.
@@ -286,7 +286,7 @@ Node.js 18+  (for dashboard only)
 ### Clone & install
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/marketing-analytics-portfolio.git
+git clone https://github.com/vjlepro/marketing-analytics-portfolio.git
 cd marketing-analytics-portfolio
 
 # Python dependencies
@@ -363,9 +363,9 @@ Works for the notebooks (rendered natively). The interactive React dashboard req
 **Vincent Lepore**  
 Data & Analytics Leader · 15+ years in marketing science, attribution, and revenue modeling
 
-- 🔗 [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
-- 💼 [GitHub](https://github.com/YOUR_GITHUB_USERNAME)
-- 📍 Margate, FL
+- 🔗 [LinkedIn](https://www.linkedin.com/in/vincent-lepore-64873a58/)
+- 💼 [GitHub](https://github.com/vjlepro)
+- 📍 Fort Lauderdale, FL
 
 > *Built to showcase production-quality marketing analytics workflows for data science & analytics leadership roles.*
 
