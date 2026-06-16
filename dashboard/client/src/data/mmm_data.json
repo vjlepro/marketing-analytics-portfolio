@@ -1,0 +1,2235 @@
+{
+  "channels": [
+    {
+      "channel": "google_brand_search",
+      "actual_spend": 2766275.0,
+      "attributed_rev": 13667193.0,
+      "actual_roas": 4.941,
+      "adstock_decay": 0.5,
+      "hill_alpha": 3.0,
+      "hill_gamma": 0.4,
+      "pct_of_revenue": 0.2485
+    },
+    {
+      "channel": "google_display_pmax",
+      "actual_spend": 1876691.0,
+      "attributed_rev": 5499125.0,
+      "actual_roas": 2.93,
+      "adstock_decay": 0.5,
+      "hill_alpha": 3.0,
+      "hill_gamma": 0.3,
+      "pct_of_revenue": 0.1
+    },
+    {
+      "channel": "google_nonbrand_search",
+      "actual_spend": 2764826.0,
+      "attributed_rev": 7418974.0,
+      "actual_roas": 2.683,
+      "adstock_decay": 0.5,
+      "hill_alpha": 2.5,
+      "hill_gamma": 0.3,
+      "pct_of_revenue": 0.1349
+    },
+    {
+      "channel": "google_remarketing",
+      "actual_spend": 1905973.0,
+      "attributed_rev": 13146917.0,
+      "actual_roas": 6.898,
+      "adstock_decay": 0.5,
+      "hill_alpha": 3.0,
+      "hill_gamma": 0.3,
+      "pct_of_revenue": 0.2391
+    },
+    {
+      "channel": "meta_other",
+      "actual_spend": 3671986.0,
+      "attributed_rev": 3085468.0,
+      "actual_roas": 0.84,
+      "adstock_decay": 0.5,
+      "hill_alpha": 3.0,
+      "hill_gamma": 0.5,
+      "pct_of_revenue": 0.0561
+    },
+    {
+      "channel": "meta_prospecting",
+      "actual_spend": 1818792.0,
+      "attributed_rev": 0.0,
+      "actual_roas": 0.0,
+      "adstock_decay": 0.5,
+      "hill_alpha": 3.0,
+      "hill_gamma": 0.4,
+      "pct_of_revenue": 0.0
+    },
+    {
+      "channel": "meta_retargeting",
+      "actual_spend": 1782079.0,
+      "attributed_rev": 3067519.0,
+      "actual_roas": 1.721,
+      "adstock_decay": 0.4,
+      "hill_alpha": 3.0,
+      "hill_gamma": 0.3,
+      "pct_of_revenue": 0.0558
+    }
+  ],
+  "weekly_decomp": [
+    {
+      "week": "2023-01-02",
+      "revenue": 100165.0,
+      "y_pred": 75570.0,
+      "base": 75464.0,
+      "google_brand_search": 890.0,
+      "google_display_pmax": 2630.0,
+      "google_nonbrand_search": 2040.0,
+      "google_remarketing": 348.0,
+      "meta_other": 601.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 827.0
+    },
+    {
+      "week": "2023-01-16",
+      "revenue": 468881.0,
+      "y_pred": 472592.0,
+      "base": 75892.0,
+      "google_brand_search": 126849.0,
+      "google_display_pmax": 50896.0,
+      "google_nonbrand_search": 66262.0,
+      "google_remarketing": 103985.0,
+      "meta_other": 25723.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 27939.0
+    },
+    {
+      "week": "2023-01-30",
+      "revenue": 533995.0,
+      "y_pred": 532875.0,
+      "base": 76321.0,
+      "google_brand_search": 142935.0,
+      "google_display_pmax": 52836.0,
+      "google_nonbrand_search": 74646.0,
+      "google_remarketing": 129432.0,
+      "meta_other": 28838.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29724.0
+    },
+    {
+      "week": "2023-02-13",
+      "revenue": 534562.0,
+      "y_pred": 534283.0,
+      "base": 76749.0,
+      "google_brand_search": 134519.0,
+      "google_display_pmax": 53487.0,
+      "google_nonbrand_search": 74395.0,
+      "google_remarketing": 134795.0,
+      "meta_other": 29432.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29575.0
+    },
+    {
+      "week": "2023-02-27",
+      "revenue": 539831.0,
+      "y_pred": 541782.0,
+      "base": 77177.0,
+      "google_brand_search": 139641.0,
+      "google_display_pmax": 55089.0,
+      "google_nonbrand_search": 73196.0,
+      "google_remarketing": 132871.0,
+      "meta_other": 30355.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29072.0
+    },
+    {
+      "week": "2023-03-13",
+      "revenue": 564463.0,
+      "y_pred": 553057.0,
+      "base": 77605.0,
+      "google_brand_search": 145057.0,
+      "google_display_pmax": 54420.0,
+      "google_nonbrand_search": 75477.0,
+      "google_remarketing": 134335.0,
+      "meta_other": 29470.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29557.0
+    },
+    {
+      "week": "2023-03-27",
+      "revenue": 544909.0,
+      "y_pred": 544428.0,
+      "base": 78034.0,
+      "google_brand_search": 138326.0,
+      "google_display_pmax": 55411.0,
+      "google_nonbrand_search": 74015.0,
+      "google_remarketing": 130255.0,
+      "meta_other": 29745.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29170.0
+    },
+    {
+      "week": "2023-04-10",
+      "revenue": 519646.0,
+      "y_pred": 535335.0,
+      "base": 78462.0,
+      "google_brand_search": 133110.0,
+      "google_display_pmax": 54092.0,
+      "google_nonbrand_search": 71358.0,
+      "google_remarketing": 128228.0,
+      "meta_other": 29613.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29272.0
+    },
+    {
+      "week": "2023-04-24",
+      "revenue": 537189.0,
+      "y_pred": 540288.0,
+      "base": 78890.0,
+      "google_brand_search": 133141.0,
+      "google_display_pmax": 52560.0,
+      "google_nonbrand_search": 72768.0,
+      "google_remarketing": 131468.0,
+      "meta_other": 29573.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29625.0
+    },
+    {
+      "week": "2023-05-08",
+      "revenue": 563805.0,
+      "y_pred": 556273.0,
+      "base": 79318.0,
+      "google_brand_search": 141185.0,
+      "google_display_pmax": 55121.0,
+      "google_nonbrand_search": 73408.0,
+      "google_remarketing": 134622.0,
+      "meta_other": 30320.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29740.0
+    },
+    {
+      "week": "2023-05-22",
+      "revenue": 558089.0,
+      "y_pred": 547595.0,
+      "base": 79747.0,
+      "google_brand_search": 139137.0,
+      "google_display_pmax": 52757.0,
+      "google_nonbrand_search": 71936.0,
+      "google_remarketing": 132277.0,
+      "meta_other": 29650.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 30016.0
+    },
+    {
+      "week": "2023-06-05",
+      "revenue": 539288.0,
+      "y_pred": 543518.0,
+      "base": 80175.0,
+      "google_brand_search": 138240.0,
+      "google_display_pmax": 54949.0,
+      "google_nonbrand_search": 71568.0,
+      "google_remarketing": 130650.0,
+      "meta_other": 28804.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28255.0
+    },
+    {
+      "week": "2023-06-19",
+      "revenue": 547786.0,
+      "y_pred": 542429.0,
+      "base": 80603.0,
+      "google_brand_search": 134745.0,
+      "google_display_pmax": 53919.0,
+      "google_nonbrand_search": 72961.0,
+      "google_remarketing": 129858.0,
+      "meta_other": 32198.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29189.0
+    },
+    {
+      "week": "2023-07-03",
+      "revenue": 537507.0,
+      "y_pred": 537856.0,
+      "base": 81031.0,
+      "google_brand_search": 136869.0,
+      "google_display_pmax": 51923.0,
+      "google_nonbrand_search": 73245.0,
+      "google_remarketing": 127228.0,
+      "meta_other": 30950.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 30087.0
+    },
+    {
+      "week": "2023-07-17",
+      "revenue": 525693.0,
+      "y_pred": 526689.0,
+      "base": 81460.0,
+      "google_brand_search": 137134.0,
+      "google_display_pmax": 53439.0,
+      "google_nonbrand_search": 73774.0,
+      "google_remarketing": 118447.0,
+      "meta_other": 29761.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29008.0
+    },
+    {
+      "week": "2023-07-31",
+      "revenue": 492340.0,
+      "y_pred": 507376.0,
+      "base": 81888.0,
+      "google_brand_search": 124425.0,
+      "google_display_pmax": 51394.0,
+      "google_nonbrand_search": 71751.0,
+      "google_remarketing": 119332.0,
+      "meta_other": 30038.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 27994.0
+    },
+    {
+      "week": "2023-08-14",
+      "revenue": 498356.0,
+      "y_pred": 504830.0,
+      "base": 82316.0,
+      "google_brand_search": 117180.0,
+      "google_display_pmax": 52253.0,
+      "google_nonbrand_search": 69610.0,
+      "google_remarketing": 126657.0,
+      "meta_other": 30168.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29297.0
+    },
+    {
+      "week": "2023-08-28",
+      "revenue": 524195.0,
+      "y_pred": 515280.0,
+      "base": 82744.0,
+      "google_brand_search": 127692.0,
+      "google_display_pmax": 54284.0,
+      "google_nonbrand_search": 67651.0,
+      "google_remarketing": 129551.0,
+      "meta_other": 29266.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29840.0
+    },
+    {
+      "week": "2023-09-11",
+      "revenue": 511181.0,
+      "y_pred": 508123.0,
+      "base": 83173.0,
+      "google_brand_search": 127966.0,
+      "google_display_pmax": 51113.0,
+      "google_nonbrand_search": 69095.0,
+      "google_remarketing": 125081.0,
+      "meta_other": 30295.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29913.0
+    },
+    {
+      "week": "2023-09-25",
+      "revenue": 485557.0,
+      "y_pred": 496175.0,
+      "base": 83601.0,
+      "google_brand_search": 127079.0,
+      "google_display_pmax": 51406.0,
+      "google_nonbrand_search": 67229.0,
+      "google_remarketing": 118079.0,
+      "meta_other": 30331.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29296.0
+    },
+    {
+      "week": "2023-10-09",
+      "revenue": 484473.0,
+      "y_pred": 491659.0,
+      "base": 84029.0,
+      "google_brand_search": 125033.0,
+      "google_display_pmax": 50830.0,
+      "google_nonbrand_search": 69946.0,
+      "google_remarketing": 117453.0,
+      "meta_other": 28648.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28328.0
+    },
+    {
+      "week": "2023-10-23",
+      "revenue": 477117.0,
+      "y_pred": 488987.0,
+      "base": 84457.0,
+      "google_brand_search": 117241.0,
+      "google_display_pmax": 50152.0,
+      "google_nonbrand_search": 69622.0,
+      "google_remarketing": 122507.0,
+      "meta_other": 29408.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29252.0
+    },
+    {
+      "week": "2023-11-06",
+      "revenue": 477332.0,
+      "y_pred": 490697.0,
+      "base": 84886.0,
+      "google_brand_search": 118284.0,
+      "google_display_pmax": 52700.0,
+      "google_nonbrand_search": 65648.0,
+      "google_remarketing": 122740.0,
+      "meta_other": 30895.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29475.0
+    },
+    {
+      "week": "2023-11-20",
+      "revenue": 496358.0,
+      "y_pred": 501202.0,
+      "base": 85314.0,
+      "google_brand_search": 126873.0,
+      "google_display_pmax": 54995.0,
+      "google_nonbrand_search": 66922.0,
+      "google_remarketing": 122104.0,
+      "meta_other": 29019.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29431.0
+    },
+    {
+      "week": "2023-12-04",
+      "revenue": 521977.0,
+      "y_pred": 498814.0,
+      "base": 85742.0,
+      "google_brand_search": 124363.0,
+      "google_display_pmax": 54778.0,
+      "google_nonbrand_search": 68103.0,
+      "google_remarketing": 119268.0,
+      "meta_other": 28907.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29882.0
+    },
+    {
+      "week": "2023-12-18",
+      "revenue": 527107.0,
+      "y_pred": 507492.0,
+      "base": 86170.0,
+      "google_brand_search": 128749.0,
+      "google_display_pmax": 55497.0,
+      "google_nonbrand_search": 68131.0,
+      "google_remarketing": 121274.0,
+      "meta_other": 28400.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29618.0
+    },
+    {
+      "week": "2024-01-01",
+      "revenue": 504679.0,
+      "y_pred": 515597.0,
+      "base": 86599.0,
+      "google_brand_search": 127219.0,
+      "google_display_pmax": 52063.0,
+      "google_nonbrand_search": 66638.0,
+      "google_remarketing": 132798.0,
+      "meta_other": 28686.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29495.0
+    },
+    {
+      "week": "2024-01-15",
+      "revenue": 528265.0,
+      "y_pred": 528992.0,
+      "base": 87027.0,
+      "google_brand_search": 133596.0,
+      "google_display_pmax": 53453.0,
+      "google_nonbrand_search": 72385.0,
+      "google_remarketing": 130608.0,
+      "meta_other": 28405.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28533.0
+    },
+    {
+      "week": "2024-01-29",
+      "revenue": 501964.0,
+      "y_pred": 521851.0,
+      "base": 87455.0,
+      "google_brand_search": 126200.0,
+      "google_display_pmax": 50981.0,
+      "google_nonbrand_search": 72483.0,
+      "google_remarketing": 129134.0,
+      "meta_other": 28478.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28984.0
+    },
+    {
+      "week": "2024-02-12",
+      "revenue": 542893.0,
+      "y_pred": 544277.0,
+      "base": 87883.0,
+      "google_brand_search": 136532.0,
+      "google_display_pmax": 53865.0,
+      "google_nonbrand_search": 71522.0,
+      "google_remarketing": 133881.0,
+      "meta_other": 29982.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29300.0
+    },
+    {
+      "week": "2024-02-26",
+      "revenue": 547540.0,
+      "y_pred": 549768.0,
+      "base": 88312.0,
+      "google_brand_search": 141002.0,
+      "google_display_pmax": 54664.0,
+      "google_nonbrand_search": 73550.0,
+      "google_remarketing": 129923.0,
+      "meta_other": 29342.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28623.0
+    },
+    {
+      "week": "2024-03-11",
+      "revenue": 544744.0,
+      "y_pred": 553325.0,
+      "base": 88740.0,
+      "google_brand_search": 141234.0,
+      "google_display_pmax": 53823.0,
+      "google_nonbrand_search": 73181.0,
+      "google_remarketing": 129909.0,
+      "meta_other": 30042.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29234.0
+    },
+    {
+      "week": "2024-03-25",
+      "revenue": 562508.0,
+      "y_pred": 557392.0,
+      "base": 89168.0,
+      "google_brand_search": 140256.0,
+      "google_display_pmax": 54079.0,
+      "google_nonbrand_search": 74441.0,
+      "google_remarketing": 130778.0,
+      "meta_other": 29955.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29226.0
+    },
+    {
+      "week": "2024-04-08",
+      "revenue": 552372.0,
+      "y_pred": 555363.0,
+      "base": 89596.0,
+      "google_brand_search": 135364.0,
+      "google_display_pmax": 51484.0,
+      "google_nonbrand_search": 73214.0,
+      "google_remarketing": 134639.0,
+      "meta_other": 30462.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29384.0
+    },
+    {
+      "week": "2024-04-22",
+      "revenue": 570161.0,
+      "y_pred": 563963.0,
+      "base": 90025.0,
+      "google_brand_search": 137421.0,
+      "google_display_pmax": 55140.0,
+      "google_nonbrand_search": 73626.0,
+      "google_remarketing": 136686.0,
+      "meta_other": 29681.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29127.0
+    },
+    {
+      "week": "2024-05-06",
+      "revenue": 560646.0,
+      "y_pred": 557874.0,
+      "base": 90453.0,
+      "google_brand_search": 135525.0,
+      "google_display_pmax": 55182.0,
+      "google_nonbrand_search": 74030.0,
+      "google_remarketing": 132292.0,
+      "meta_other": 28437.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29399.0
+    },
+    {
+      "week": "2024-05-20",
+      "revenue": 571581.0,
+      "y_pred": 557539.0,
+      "base": 90881.0,
+      "google_brand_search": 134529.0,
+      "google_display_pmax": 56285.0,
+      "google_nonbrand_search": 74905.0,
+      "google_remarketing": 131261.0,
+      "meta_other": 27593.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 30012.0
+    },
+    {
+      "week": "2024-06-03",
+      "revenue": 556348.0,
+      "y_pred": 558782.0,
+      "base": 91309.0,
+      "google_brand_search": 136880.0,
+      "google_display_pmax": 53334.0,
+      "google_nonbrand_search": 74920.0,
+      "google_remarketing": 132513.0,
+      "meta_other": 29700.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29289.0
+    },
+    {
+      "week": "2024-06-17",
+      "revenue": 553086.0,
+      "y_pred": 548498.0,
+      "base": 91738.0,
+      "google_brand_search": 132883.0,
+      "google_display_pmax": 53698.0,
+      "google_nonbrand_search": 73665.0,
+      "google_remarketing": 127529.0,
+      "meta_other": 30409.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29626.0
+    },
+    {
+      "week": "2024-07-01",
+      "revenue": 535004.0,
+      "y_pred": 536932.0,
+      "base": 92166.0,
+      "google_brand_search": 137739.0,
+      "google_display_pmax": 50805.0,
+      "google_nonbrand_search": 69679.0,
+      "google_remarketing": 120511.0,
+      "meta_other": 30046.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29461.0
+    },
+    {
+      "week": "2024-07-15",
+      "revenue": 533675.0,
+      "y_pred": 535944.0,
+      "base": 92594.0,
+      "google_brand_search": 130630.0,
+      "google_display_pmax": 55220.0,
+      "google_nonbrand_search": 67755.0,
+      "google_remarketing": 126671.0,
+      "meta_other": 29710.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29718.0
+    },
+    {
+      "week": "2024-07-29",
+      "revenue": 536072.0,
+      "y_pred": 529475.0,
+      "base": 93022.0,
+      "google_brand_search": 123361.0,
+      "google_display_pmax": 53062.0,
+      "google_nonbrand_search": 72587.0,
+      "google_remarketing": 127595.0,
+      "meta_other": 30051.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29268.0
+    },
+    {
+      "week": "2024-08-12",
+      "revenue": 506096.0,
+      "y_pred": 512811.0,
+      "base": 93451.0,
+      "google_brand_search": 125340.0,
+      "google_display_pmax": 54355.0,
+      "google_nonbrand_search": 70066.0,
+      "google_remarketing": 113983.0,
+      "meta_other": 29680.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28626.0
+    },
+    {
+      "week": "2024-08-26",
+      "revenue": 497132.0,
+      "y_pred": 489489.0,
+      "base": 93879.0,
+      "google_brand_search": 108805.0,
+      "google_display_pmax": 53685.0,
+      "google_nonbrand_search": 70531.0,
+      "google_remarketing": 109455.0,
+      "meta_other": 29474.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29422.0
+    },
+    {
+      "week": "2024-09-09",
+      "revenue": 518374.0,
+      "y_pred": 516440.0,
+      "base": 94307.0,
+      "google_brand_search": 129045.0,
+      "google_display_pmax": 48640.0,
+      "google_nonbrand_search": 69654.0,
+      "google_remarketing": 123765.0,
+      "meta_other": 29835.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29709.0
+    },
+    {
+      "week": "2024-09-23",
+      "revenue": 519785.0,
+      "y_pred": 518772.0,
+      "base": 94736.0,
+      "google_brand_search": 131179.0,
+      "google_display_pmax": 47235.0,
+      "google_nonbrand_search": 69997.0,
+      "google_remarketing": 127955.0,
+      "meta_other": 28679.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29831.0
+    },
+    {
+      "week": "2024-10-07",
+      "revenue": 484266.0,
+      "y_pred": 491936.0,
+      "base": 95164.0,
+      "google_brand_search": 116715.0,
+      "google_display_pmax": 46509.0,
+      "google_nonbrand_search": 69847.0,
+      "google_remarketing": 116660.0,
+      "meta_other": 29813.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29848.0
+    },
+    {
+      "week": "2024-10-21",
+      "revenue": 501777.0,
+      "y_pred": 507717.0,
+      "base": 95592.0,
+      "google_brand_search": 126685.0,
+      "google_display_pmax": 47153.0,
+      "google_nonbrand_search": 67557.0,
+      "google_remarketing": 125066.0,
+      "meta_other": 28943.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 30327.0
+    },
+    {
+      "week": "2024-11-04",
+      "revenue": 498359.0,
+      "y_pred": 506497.0,
+      "base": 96020.0,
+      "google_brand_search": 115554.0,
+      "google_display_pmax": 52023.0,
+      "google_nonbrand_search": 69631.0,
+      "google_remarketing": 127811.0,
+      "meta_other": 30070.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29318.0
+    },
+    {
+      "week": "2024-11-18",
+      "revenue": 497863.0,
+      "y_pred": 508585.0,
+      "base": 96449.0,
+      "google_brand_search": 129380.0,
+      "google_display_pmax": 48860.0,
+      "google_nonbrand_search": 69559.0,
+      "google_remarketing": 121276.0,
+      "meta_other": 28223.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28292.0
+    },
+    {
+      "week": "2024-12-02",
+      "revenue": 541777.0,
+      "y_pred": 528906.0,
+      "base": 96877.0,
+      "google_brand_search": 130199.0,
+      "google_display_pmax": 53885.0,
+      "google_nonbrand_search": 69671.0,
+      "google_remarketing": 132942.0,
+      "meta_other": 29621.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 27957.0
+    },
+    {
+      "week": "2024-12-16",
+      "revenue": 539112.0,
+      "y_pred": 527728.0,
+      "base": 97305.0,
+      "google_brand_search": 134529.0,
+      "google_display_pmax": 53313.0,
+      "google_nonbrand_search": 69643.0,
+      "google_remarketing": 125518.0,
+      "meta_other": 29187.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 28575.0
+    },
+    {
+      "week": "2024-12-30",
+      "revenue": 539626.0,
+      "y_pred": 525293.0,
+      "base": 97733.0,
+      "google_brand_search": 135491.0,
+      "google_display_pmax": 50523.0,
+      "google_nonbrand_search": 69499.0,
+      "google_remarketing": 121404.0,
+      "meta_other": 29249.0,
+      "meta_prospecting": 0.0,
+      "meta_retargeting": 29277.0
+    }
+  ],
+  "budget_optimizer": [
+    {
+      "channel": "google_brand_search",
+      "current_spend_wk": 26096.93,
+      "optimized_spend_wk": 26096.93,
+      "change_pct": 0.0
+    },
+    {
+      "channel": "google_display_pmax",
+      "current_spend_wk": 17704.63,
+      "optimized_spend_wk": 17704.63,
+      "change_pct": 0.0
+    },
+    {
+      "channel": "google_nonbrand_search",
+      "current_spend_wk": 26083.26,
+      "optimized_spend_wk": 26083.26,
+      "change_pct": 0.0
+    },
+    {
+      "channel": "google_remarketing",
+      "current_spend_wk": 17980.88,
+      "optimized_spend_wk": 17980.88,
+      "change_pct": 0.0
+    },
+    {
+      "channel": "meta_other",
+      "current_spend_wk": 34641.37,
+      "optimized_spend_wk": 34641.37,
+      "change_pct": 0.0
+    },
+    {
+      "channel": "meta_prospecting",
+      "current_spend_wk": 17158.41,
+      "optimized_spend_wk": 17158.41,
+      "change_pct": 0.0
+    },
+    {
+      "channel": "meta_retargeting",
+      "current_spend_wk": 16812.06,
+      "optimized_spend_wk": 16812.06,
+      "change_pct": 0.0
+    }
+  ],
+  "mroas_curves": {
+    "google_brand_search": [
+      {
+        "spend_multiplier": 0.5,
+        "roas": 11.0721
+      },
+      {
+        "spend_multiplier": 0.55,
+        "roas": 10.0469
+      },
+      {
+        "spend_multiplier": 0.6,
+        "roas": 9.1955
+      },
+      {
+        "spend_multiplier": 0.65,
+        "roas": 8.4771
+      },
+      {
+        "spend_multiplier": 0.7,
+        "roas": 7.8628
+      },
+      {
+        "spend_multiplier": 0.76,
+        "roas": 7.3315
+      },
+      {
+        "spend_multiplier": 0.81,
+        "roas": 6.8675
+      },
+      {
+        "spend_multiplier": 0.86,
+        "roas": 6.4587
+      },
+      {
+        "spend_multiplier": 0.91,
+        "roas": 6.0959
+      },
+      {
+        "spend_multiplier": 0.96,
+        "roas": 5.7716
+      },
+      {
+        "spend_multiplier": 1.01,
+        "roas": 5.4801
+      },
+      {
+        "spend_multiplier": 1.06,
+        "roas": 5.2167
+      },
+      {
+        "spend_multiplier": 1.11,
+        "roas": 4.9774
+      },
+      {
+        "spend_multiplier": 1.16,
+        "roas": 4.7591
+      },
+      {
+        "spend_multiplier": 1.21,
+        "roas": 4.5591
+      },
+      {
+        "spend_multiplier": 1.27,
+        "roas": 4.3753
+      },
+      {
+        "spend_multiplier": 1.32,
+        "roas": 4.2057
+      },
+      {
+        "spend_multiplier": 1.37,
+        "roas": 4.0488
+      },
+      {
+        "spend_multiplier": 1.42,
+        "roas": 3.9031
+      },
+      {
+        "spend_multiplier": 1.47,
+        "roas": 3.7676
+      },
+      {
+        "spend_multiplier": 1.52,
+        "roas": 3.6412
+      },
+      {
+        "spend_multiplier": 1.57,
+        "roas": 3.523
+      },
+      {
+        "spend_multiplier": 1.62,
+        "roas": 3.4122
+      },
+      {
+        "spend_multiplier": 1.67,
+        "roas": 3.3081
+      },
+      {
+        "spend_multiplier": 1.72,
+        "roas": 3.2103
+      },
+      {
+        "spend_multiplier": 1.78,
+        "roas": 3.118
+      },
+      {
+        "spend_multiplier": 1.83,
+        "roas": 3.0309
+      },
+      {
+        "spend_multiplier": 1.88,
+        "roas": 2.9486
+      },
+      {
+        "spend_multiplier": 1.93,
+        "roas": 2.8706
+      },
+      {
+        "spend_multiplier": 1.98,
+        "roas": 2.7966
+      },
+      {
+        "spend_multiplier": 2.03,
+        "roas": 2.7263
+      },
+      {
+        "spend_multiplier": 2.08,
+        "roas": 2.6595
+      },
+      {
+        "spend_multiplier": 2.13,
+        "roas": 2.5959
+      },
+      {
+        "spend_multiplier": 2.18,
+        "roas": 2.5352
+      },
+      {
+        "spend_multiplier": 2.23,
+        "roas": 2.4773
+      },
+      {
+        "spend_multiplier": 2.29,
+        "roas": 2.422
+      },
+      {
+        "spend_multiplier": 2.34,
+        "roas": 2.3691
+      },
+      {
+        "spend_multiplier": 2.39,
+        "roas": 2.3185
+      },
+      {
+        "spend_multiplier": 2.44,
+        "roas": 2.27
+      },
+      {
+        "spend_multiplier": 2.49,
+        "roas": 2.2235
+      },
+      {
+        "spend_multiplier": 2.54,
+        "roas": 2.1789
+      },
+      {
+        "spend_multiplier": 2.59,
+        "roas": 2.136
+      },
+      {
+        "spend_multiplier": 2.64,
+        "roas": 2.0947
+      },
+      {
+        "spend_multiplier": 2.69,
+        "roas": 2.0551
+      },
+      {
+        "spend_multiplier": 2.74,
+        "roas": 2.0169
+      },
+      {
+        "spend_multiplier": 2.8,
+        "roas": 1.9801
+      },
+      {
+        "spend_multiplier": 2.85,
+        "roas": 1.9446
+      },
+      {
+        "spend_multiplier": 2.9,
+        "roas": 1.9103
+      },
+      {
+        "spend_multiplier": 2.95,
+        "roas": 1.8773
+      },
+      {
+        "spend_multiplier": 3.0,
+        "roas": 1.8454
+      }
+    ],
+    "google_display_pmax": [
+      {
+        "spend_multiplier": 0.5,
+        "roas": 6.3454
+      },
+      {
+        "spend_multiplier": 0.55,
+        "roas": 5.7578
+      },
+      {
+        "spend_multiplier": 0.6,
+        "roas": 5.2699
+      },
+      {
+        "spend_multiplier": 0.65,
+        "roas": 4.8582
+      },
+      {
+        "spend_multiplier": 0.7,
+        "roas": 4.5061
+      },
+      {
+        "spend_multiplier": 0.76,
+        "roas": 4.2017
+      },
+      {
+        "spend_multiplier": 0.81,
+        "roas": 3.9357
+      },
+      {
+        "spend_multiplier": 0.86,
+        "roas": 3.7015
+      },
+      {
+        "spend_multiplier": 0.91,
+        "roas": 3.4935
+      },
+      {
+        "spend_multiplier": 0.96,
+        "roas": 3.3077
+      },
+      {
+        "spend_multiplier": 1.01,
+        "roas": 3.1406
+      },
+      {
+        "spend_multiplier": 1.06,
+        "roas": 2.9896
+      },
+      {
+        "spend_multiplier": 1.11,
+        "roas": 2.8525
+      },
+      {
+        "spend_multiplier": 1.16,
+        "roas": 2.7274
+      },
+      {
+        "spend_multiplier": 1.21,
+        "roas": 2.6128
+      },
+      {
+        "spend_multiplier": 1.27,
+        "roas": 2.5074
+      },
+      {
+        "spend_multiplier": 1.32,
+        "roas": 2.4103
+      },
+      {
+        "spend_multiplier": 1.37,
+        "roas": 2.3203
+      },
+      {
+        "spend_multiplier": 1.42,
+        "roas": 2.2369
+      },
+      {
+        "spend_multiplier": 1.47,
+        "roas": 2.1592
+      },
+      {
+        "spend_multiplier": 1.52,
+        "roas": 2.0867
+      },
+      {
+        "spend_multiplier": 1.57,
+        "roas": 2.019
+      },
+      {
+        "spend_multiplier": 1.62,
+        "roas": 1.9555
+      },
+      {
+        "spend_multiplier": 1.67,
+        "roas": 1.8959
+      },
+      {
+        "spend_multiplier": 1.72,
+        "roas": 1.8398
+      },
+      {
+        "spend_multiplier": 1.78,
+        "roas": 1.7869
+      },
+      {
+        "spend_multiplier": 1.83,
+        "roas": 1.737
+      },
+      {
+        "spend_multiplier": 1.88,
+        "roas": 1.6898
+      },
+      {
+        "spend_multiplier": 1.93,
+        "roas": 1.6451
+      },
+      {
+        "spend_multiplier": 1.98,
+        "roas": 1.6027
+      },
+      {
+        "spend_multiplier": 2.03,
+        "roas": 1.5624
+      },
+      {
+        "spend_multiplier": 2.08,
+        "roas": 1.5241
+      },
+      {
+        "spend_multiplier": 2.13,
+        "roas": 1.4877
+      },
+      {
+        "spend_multiplier": 2.18,
+        "roas": 1.4529
+      },
+      {
+        "spend_multiplier": 2.23,
+        "roas": 1.4197
+      },
+      {
+        "spend_multiplier": 2.29,
+        "roas": 1.3881
+      },
+      {
+        "spend_multiplier": 2.34,
+        "roas": 1.3577
+      },
+      {
+        "spend_multiplier": 2.39,
+        "roas": 1.3287
+      },
+      {
+        "spend_multiplier": 2.44,
+        "roas": 1.3009
+      },
+      {
+        "spend_multiplier": 2.49,
+        "roas": 1.2743
+      },
+      {
+        "spend_multiplier": 2.54,
+        "roas": 1.2487
+      },
+      {
+        "spend_multiplier": 2.59,
+        "roas": 1.2241
+      },
+      {
+        "spend_multiplier": 2.64,
+        "roas": 1.2005
+      },
+      {
+        "spend_multiplier": 2.69,
+        "roas": 1.1777
+      },
+      {
+        "spend_multiplier": 2.74,
+        "roas": 1.1558
+      },
+      {
+        "spend_multiplier": 2.8,
+        "roas": 1.1348
+      },
+      {
+        "spend_multiplier": 2.85,
+        "roas": 1.1144
+      },
+      {
+        "spend_multiplier": 2.9,
+        "roas": 1.0948
+      },
+      {
+        "spend_multiplier": 2.95,
+        "roas": 1.0759
+      },
+      {
+        "spend_multiplier": 3.0,
+        "roas": 1.0576
+      }
+    ],
+    "google_nonbrand_search": [
+      {
+        "spend_multiplier": 0.5,
+        "roas": 5.8447
+      },
+      {
+        "spend_multiplier": 0.55,
+        "roas": 5.3035
+      },
+      {
+        "spend_multiplier": 0.6,
+        "roas": 4.854
+      },
+      {
+        "spend_multiplier": 0.65,
+        "roas": 4.4748
+      },
+      {
+        "spend_multiplier": 0.7,
+        "roas": 4.1506
+      },
+      {
+        "spend_multiplier": 0.76,
+        "roas": 3.8701
+      },
+      {
+        "spend_multiplier": 0.81,
+        "roas": 3.6252
+      },
+      {
+        "spend_multiplier": 0.86,
+        "roas": 3.4094
+      },
+      {
+        "spend_multiplier": 0.91,
+        "roas": 3.2178
+      },
+      {
+        "spend_multiplier": 0.96,
+        "roas": 3.0467
+      },
+      {
+        "spend_multiplier": 1.01,
+        "roas": 2.8928
+      },
+      {
+        "spend_multiplier": 1.06,
+        "roas": 2.7537
+      },
+      {
+        "spend_multiplier": 1.11,
+        "roas": 2.6274
+      },
+      {
+        "spend_multiplier": 1.16,
+        "roas": 2.5122
+      },
+      {
+        "spend_multiplier": 1.21,
+        "roas": 2.4066
+      },
+      {
+        "spend_multiplier": 1.27,
+        "roas": 2.3096
+      },
+      {
+        "spend_multiplier": 1.32,
+        "roas": 2.2201
+      },
+      {
+        "spend_multiplier": 1.37,
+        "roas": 2.1372
+      },
+      {
+        "spend_multiplier": 1.42,
+        "roas": 2.0603
+      },
+      {
+        "spend_multiplier": 1.47,
+        "roas": 1.9888
+      },
+      {
+        "spend_multiplier": 1.52,
+        "roas": 1.9221
+      },
+      {
+        "spend_multiplier": 1.57,
+        "roas": 1.8597
+      },
+      {
+        "spend_multiplier": 1.62,
+        "roas": 1.8012
+      },
+      {
+        "spend_multiplier": 1.67,
+        "roas": 1.7463
+      },
+      {
+        "spend_multiplier": 1.72,
+        "roas": 1.6946
+      },
+      {
+        "spend_multiplier": 1.78,
+        "roas": 1.6459
+      },
+      {
+        "spend_multiplier": 1.83,
+        "roas": 1.5999
+      },
+      {
+        "spend_multiplier": 1.88,
+        "roas": 1.5565
+      },
+      {
+        "spend_multiplier": 1.93,
+        "roas": 1.5153
+      },
+      {
+        "spend_multiplier": 1.98,
+        "roas": 1.4762
+      },
+      {
+        "spend_multiplier": 2.03,
+        "roas": 1.4391
+      },
+      {
+        "spend_multiplier": 2.08,
+        "roas": 1.4039
+      },
+      {
+        "spend_multiplier": 2.13,
+        "roas": 1.3703
+      },
+      {
+        "spend_multiplier": 2.18,
+        "roas": 1.3383
+      },
+      {
+        "spend_multiplier": 2.23,
+        "roas": 1.3077
+      },
+      {
+        "spend_multiplier": 2.29,
+        "roas": 1.2785
+      },
+      {
+        "spend_multiplier": 2.34,
+        "roas": 1.2506
+      },
+      {
+        "spend_multiplier": 2.39,
+        "roas": 1.2239
+      },
+      {
+        "spend_multiplier": 2.44,
+        "roas": 1.1983
+      },
+      {
+        "spend_multiplier": 2.49,
+        "roas": 1.1737
+      },
+      {
+        "spend_multiplier": 2.54,
+        "roas": 1.1502
+      },
+      {
+        "spend_multiplier": 2.59,
+        "roas": 1.1275
+      },
+      {
+        "spend_multiplier": 2.64,
+        "roas": 1.1057
+      },
+      {
+        "spend_multiplier": 2.69,
+        "roas": 1.0848
+      },
+      {
+        "spend_multiplier": 2.74,
+        "roas": 1.0646
+      },
+      {
+        "spend_multiplier": 2.8,
+        "roas": 1.0452
+      },
+      {
+        "spend_multiplier": 2.85,
+        "roas": 1.0265
+      },
+      {
+        "spend_multiplier": 2.9,
+        "roas": 1.0084
+      },
+      {
+        "spend_multiplier": 2.95,
+        "roas": 0.991
+      },
+      {
+        "spend_multiplier": 3.0,
+        "roas": 0.9741
+      }
+    ],
+    "google_remarketing": [
+      {
+        "spend_multiplier": 0.5,
+        "roas": 15.1728
+      },
+      {
+        "spend_multiplier": 0.55,
+        "roas": 13.7679
+      },
+      {
+        "spend_multiplier": 0.6,
+        "roas": 12.6011
+      },
+      {
+        "spend_multiplier": 0.65,
+        "roas": 11.6167
+      },
+      {
+        "spend_multiplier": 0.7,
+        "roas": 10.7749
+      },
+      {
+        "spend_multiplier": 0.76,
+        "roas": 10.0468
+      },
+      {
+        "spend_multiplier": 0.81,
+        "roas": 9.411
+      },
+      {
+        "spend_multiplier": 0.86,
+        "roas": 8.8508
+      },
+      {
+        "spend_multiplier": 0.91,
+        "roas": 8.3536
+      },
+      {
+        "spend_multiplier": 0.96,
+        "roas": 7.9092
+      },
+      {
+        "spend_multiplier": 1.01,
+        "roas": 7.5098
+      },
+      {
+        "spend_multiplier": 1.06,
+        "roas": 7.1487
+      },
+      {
+        "spend_multiplier": 1.11,
+        "roas": 6.8208
+      },
+      {
+        "spend_multiplier": 1.16,
+        "roas": 6.5216
+      },
+      {
+        "spend_multiplier": 1.21,
+        "roas": 6.2476
+      },
+      {
+        "spend_multiplier": 1.27,
+        "roas": 5.9957
+      },
+      {
+        "spend_multiplier": 1.32,
+        "roas": 5.7633
+      },
+      {
+        "spend_multiplier": 1.37,
+        "roas": 5.5483
+      },
+      {
+        "spend_multiplier": 1.42,
+        "roas": 5.3487
+      },
+      {
+        "spend_multiplier": 1.47,
+        "roas": 5.163
+      },
+      {
+        "spend_multiplier": 1.52,
+        "roas": 4.9897
+      },
+      {
+        "spend_multiplier": 1.57,
+        "roas": 4.8277
+      },
+      {
+        "spend_multiplier": 1.62,
+        "roas": 4.6759
+      },
+      {
+        "spend_multiplier": 1.67,
+        "roas": 4.5333
+      },
+      {
+        "spend_multiplier": 1.72,
+        "roas": 4.3992
+      },
+      {
+        "spend_multiplier": 1.78,
+        "roas": 4.2728
+      },
+      {
+        "spend_multiplier": 1.83,
+        "roas": 4.1534
+      },
+      {
+        "spend_multiplier": 1.88,
+        "roas": 4.0406
+      },
+      {
+        "spend_multiplier": 1.93,
+        "roas": 3.9337
+      },
+      {
+        "spend_multiplier": 1.98,
+        "roas": 3.8323
+      },
+      {
+        "spend_multiplier": 2.03,
+        "roas": 3.736
+      },
+      {
+        "spend_multiplier": 2.08,
+        "roas": 3.6444
+      },
+      {
+        "spend_multiplier": 2.13,
+        "roas": 3.5573
+      },
+      {
+        "spend_multiplier": 2.18,
+        "roas": 3.4741
+      },
+      {
+        "spend_multiplier": 2.23,
+        "roas": 3.3948
+      },
+      {
+        "spend_multiplier": 2.29,
+        "roas": 3.319
+      },
+      {
+        "spend_multiplier": 2.34,
+        "roas": 3.2466
+      },
+      {
+        "spend_multiplier": 2.39,
+        "roas": 3.1772
+      },
+      {
+        "spend_multiplier": 2.44,
+        "roas": 3.1107
+      },
+      {
+        "spend_multiplier": 2.49,
+        "roas": 3.047
+      },
+      {
+        "spend_multiplier": 2.54,
+        "roas": 2.9858
+      },
+      {
+        "spend_multiplier": 2.59,
+        "roas": 2.927
+      },
+      {
+        "spend_multiplier": 2.64,
+        "roas": 2.8705
+      },
+      {
+        "spend_multiplier": 2.69,
+        "roas": 2.8162
+      },
+      {
+        "spend_multiplier": 2.74,
+        "roas": 2.7638
+      },
+      {
+        "spend_multiplier": 2.8,
+        "roas": 2.7134
+      },
+      {
+        "spend_multiplier": 2.85,
+        "roas": 2.6648
+      },
+      {
+        "spend_multiplier": 2.9,
+        "roas": 2.6178
+      },
+      {
+        "spend_multiplier": 2.95,
+        "roas": 2.5725
+      },
+      {
+        "spend_multiplier": 3.0,
+        "roas": 2.5288
+      }
+    ],
+    "meta_other": [
+      {
+        "spend_multiplier": 0.5,
+        "roas": 1.8473
+      },
+      {
+        "spend_multiplier": 0.55,
+        "roas": 1.6762
+      },
+      {
+        "spend_multiplier": 0.6,
+        "roas": 1.5342
+      },
+      {
+        "spend_multiplier": 0.65,
+        "roas": 1.4143
+      },
+      {
+        "spend_multiplier": 0.7,
+        "roas": 1.3118
+      },
+      {
+        "spend_multiplier": 0.76,
+        "roas": 1.2232
+      },
+      {
+        "spend_multiplier": 0.81,
+        "roas": 1.1458
+      },
+      {
+        "spend_multiplier": 0.86,
+        "roas": 1.0776
+      },
+      {
+        "spend_multiplier": 0.91,
+        "roas": 1.017
+      },
+      {
+        "spend_multiplier": 0.96,
+        "roas": 0.9629
+      },
+      {
+        "spend_multiplier": 1.01,
+        "roas": 0.9143
+      },
+      {
+        "spend_multiplier": 1.06,
+        "roas": 0.8703
+      },
+      {
+        "spend_multiplier": 1.11,
+        "roas": 0.8304
+      },
+      {
+        "spend_multiplier": 1.16,
+        "roas": 0.794
+      },
+      {
+        "spend_multiplier": 1.21,
+        "roas": 0.7606
+      },
+      {
+        "spend_multiplier": 1.27,
+        "roas": 0.73
+      },
+      {
+        "spend_multiplier": 1.32,
+        "roas": 0.7017
+      },
+      {
+        "spend_multiplier": 1.37,
+        "roas": 0.6755
+      },
+      {
+        "spend_multiplier": 1.42,
+        "roas": 0.6512
+      },
+      {
+        "spend_multiplier": 1.47,
+        "roas": 0.6286
+      },
+      {
+        "spend_multiplier": 1.52,
+        "roas": 0.6075
+      },
+      {
+        "spend_multiplier": 1.57,
+        "roas": 0.5878
+      },
+      {
+        "spend_multiplier": 1.62,
+        "roas": 0.5693
+      },
+      {
+        "spend_multiplier": 1.67,
+        "roas": 0.5519
+      },
+      {
+        "spend_multiplier": 1.72,
+        "roas": 0.5356
+      },
+      {
+        "spend_multiplier": 1.78,
+        "roas": 0.5202
+      },
+      {
+        "spend_multiplier": 1.83,
+        "roas": 0.5057
+      },
+      {
+        "spend_multiplier": 1.88,
+        "roas": 0.4919
+      },
+      {
+        "spend_multiplier": 1.93,
+        "roas": 0.4789
+      },
+      {
+        "spend_multiplier": 1.98,
+        "roas": 0.4666
+      },
+      {
+        "spend_multiplier": 2.03,
+        "roas": 0.4549
+      },
+      {
+        "spend_multiplier": 2.08,
+        "roas": 0.4437
+      },
+      {
+        "spend_multiplier": 2.13,
+        "roas": 0.4331
+      },
+      {
+        "spend_multiplier": 2.18,
+        "roas": 0.423
+      },
+      {
+        "spend_multiplier": 2.23,
+        "roas": 0.4133
+      },
+      {
+        "spend_multiplier": 2.29,
+        "roas": 0.4041
+      },
+      {
+        "spend_multiplier": 2.34,
+        "roas": 0.3953
+      },
+      {
+        "spend_multiplier": 2.39,
+        "roas": 0.3868
+      },
+      {
+        "spend_multiplier": 2.44,
+        "roas": 0.3787
+      },
+      {
+        "spend_multiplier": 2.49,
+        "roas": 0.371
+      },
+      {
+        "spend_multiplier": 2.54,
+        "roas": 0.3635
+      },
+      {
+        "spend_multiplier": 2.59,
+        "roas": 0.3564
+      },
+      {
+        "spend_multiplier": 2.64,
+        "roas": 0.3495
+      },
+      {
+        "spend_multiplier": 2.69,
+        "roas": 0.3429
+      },
+      {
+        "spend_multiplier": 2.74,
+        "roas": 0.3365
+      },
+      {
+        "spend_multiplier": 2.8,
+        "roas": 0.3303
+      },
+      {
+        "spend_multiplier": 2.85,
+        "roas": 0.3244
+      },
+      {
+        "spend_multiplier": 2.9,
+        "roas": 0.3187
+      },
+      {
+        "spend_multiplier": 2.95,
+        "roas": 0.3132
+      },
+      {
+        "spend_multiplier": 3.0,
+        "roas": 0.3079
+      }
+    ],
+    "meta_prospecting": [
+      {
+        "spend_multiplier": 0.5,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.55,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.6,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.65,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.7,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.76,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.81,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.86,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.91,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 0.96,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.01,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.06,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.11,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.16,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.21,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.27,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.32,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.37,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.42,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.47,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.52,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.57,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.62,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.67,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.72,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.78,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.83,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.88,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.93,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 1.98,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.03,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.08,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.13,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.18,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.23,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.29,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.34,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.39,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.44,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.49,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.54,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.59,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.64,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.69,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.74,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.8,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.85,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.9,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 2.95,
+        "roas": 0.0
+      },
+      {
+        "spend_multiplier": 3.0,
+        "roas": 0.0
+      }
+    ],
+    "meta_retargeting": [
+      {
+        "spend_multiplier": 0.5,
+        "roas": 3.6039
+      },
+      {
+        "spend_multiplier": 0.55,
+        "roas": 3.2702
+      },
+      {
+        "spend_multiplier": 0.6,
+        "roas": 2.9931
+      },
+      {
+        "spend_multiplier": 0.65,
+        "roas": 2.7593
+      },
+      {
+        "spend_multiplier": 0.7,
+        "roas": 2.5593
+      },
+      {
+        "spend_multiplier": 0.76,
+        "roas": 2.3864
+      },
+      {
+        "spend_multiplier": 0.81,
+        "roas": 2.2354
+      },
+      {
+        "spend_multiplier": 0.86,
+        "roas": 2.1023
+      },
+      {
+        "spend_multiplier": 0.91,
+        "roas": 1.9842
+      },
+      {
+        "spend_multiplier": 0.96,
+        "roas": 1.8787
+      },
+      {
+        "spend_multiplier": 1.01,
+        "roas": 1.7838
+      },
+      {
+        "spend_multiplier": 1.06,
+        "roas": 1.698
+      },
+      {
+        "spend_multiplier": 1.11,
+        "roas": 1.6201
+      },
+      {
+        "spend_multiplier": 1.16,
+        "roas": 1.5491
+      },
+      {
+        "spend_multiplier": 1.21,
+        "roas": 1.484
+      },
+      {
+        "spend_multiplier": 1.27,
+        "roas": 1.4241
+      },
+      {
+        "spend_multiplier": 1.32,
+        "roas": 1.3689
+      },
+      {
+        "spend_multiplier": 1.37,
+        "roas": 1.3179
+      },
+      {
+        "spend_multiplier": 1.42,
+        "roas": 1.2705
+      },
+      {
+        "spend_multiplier": 1.47,
+        "roas": 1.2263
+      },
+      {
+        "spend_multiplier": 1.52,
+        "roas": 1.1852
+      },
+      {
+        "spend_multiplier": 1.57,
+        "roas": 1.1467
+      },
+      {
+        "spend_multiplier": 1.62,
+        "roas": 1.1106
+      },
+      {
+        "spend_multiplier": 1.67,
+        "roas": 1.0768
+      },
+      {
+        "spend_multiplier": 1.72,
+        "roas": 1.0449
+      },
+      {
+        "spend_multiplier": 1.78,
+        "roas": 1.0149
+      },
+      {
+        "spend_multiplier": 1.83,
+        "roas": 0.9866
+      },
+      {
+        "spend_multiplier": 1.88,
+        "roas": 0.9597
+      },
+      {
+        "spend_multiplier": 1.93,
+        "roas": 0.9344
+      },
+      {
+        "spend_multiplier": 1.98,
+        "roas": 0.9103
+      },
+      {
+        "spend_multiplier": 2.03,
+        "roas": 0.8874
+      },
+      {
+        "spend_multiplier": 2.08,
+        "roas": 0.8657
+      },
+      {
+        "spend_multiplier": 2.13,
+        "roas": 0.8449
+      },
+      {
+        "spend_multiplier": 2.18,
+        "roas": 0.8252
+      },
+      {
+        "spend_multiplier": 2.23,
+        "roas": 0.8064
+      },
+      {
+        "spend_multiplier": 2.29,
+        "roas": 0.7884
+      },
+      {
+        "spend_multiplier": 2.34,
+        "roas": 0.7711
+      },
+      {
+        "spend_multiplier": 2.39,
+        "roas": 0.7547
+      },
+      {
+        "spend_multiplier": 2.44,
+        "roas": 0.7389
+      },
+      {
+        "spend_multiplier": 2.49,
+        "roas": 0.7237
+      },
+      {
+        "spend_multiplier": 2.54,
+        "roas": 0.7092
+      },
+      {
+        "spend_multiplier": 2.59,
+        "roas": 0.6952
+      },
+      {
+        "spend_multiplier": 2.64,
+        "roas": 0.6818
+      },
+      {
+        "spend_multiplier": 2.69,
+        "roas": 0.6689
+      },
+      {
+        "spend_multiplier": 2.74,
+        "roas": 0.6565
+      },
+      {
+        "spend_multiplier": 2.8,
+        "roas": 0.6445
+      },
+      {
+        "spend_multiplier": 2.85,
+        "roas": 0.633
+      },
+      {
+        "spend_multiplier": 2.9,
+        "roas": 0.6218
+      },
+      {
+        "spend_multiplier": 2.95,
+        "roas": 0.611
+      },
+      {
+        "spend_multiplier": 3.0,
+        "roas": 0.6007
+      }
+    ]
+  },
+  "model_fit": {
+    "r2_ols": 0.9449,
+    "r2_ridge": 0.6673,
+    "mape": 0.0203,
+    "total_weeks": 106,
+    "total_revenue_modeled": 54991693.39,
+    "base_revenue_pct": 0.1671,
+    "paid_media_pct": 0.8344,
+    "budget_lift_potential": 0.0
+  }
+}

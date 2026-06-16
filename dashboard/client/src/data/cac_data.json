@@ -1,0 +1,1477 @@
+{
+  "by_channel": [
+    {
+      "channel": "Google Ads \u2014 Brand Search",
+      "platform": "Google Ads",
+      "cac": 34.68,
+      "ltv_24m": 110.98,
+      "ltv_cac_ratio": 3.2,
+      "payback_months": 7.5,
+      "health_status": "Healthy",
+      "total_spend": 2766275.0,
+      "roas": 6.163,
+      "cvr": 0.1048
+    },
+    {
+      "channel": "Google Ads \u2014 Non-Brand Search",
+      "platform": "Google Ads",
+      "cac": 34.41,
+      "ltv_24m": 89.47,
+      "ltv_cac_ratio": 2.6,
+      "payback_months": 9.2,
+      "health_status": "Marginal",
+      "total_spend": 883638.0,
+      "roas": 6.265,
+      "cvr": 0.1064
+    },
+    {
+      "channel": "Google Ads \u2014 Paid Search - Other",
+      "platform": "Google Ads",
+      "cac": 35.4,
+      "ltv_24m": 84.96,
+      "ltv_cac_ratio": 2.4,
+      "payback_months": 10.0,
+      "health_status": "Marginal",
+      "total_spend": 3757879.0,
+      "roas": 6.035,
+      "cvr": 0.1041
+    },
+    {
+      "channel": "Google Ads \u2014 Remarketing",
+      "platform": "Google Ads",
+      "cac": 35.76,
+      "ltv_24m": 103.7,
+      "ltv_cac_ratio": 2.9,
+      "payback_months": 8.3,
+      "health_status": "Marginal",
+      "total_spend": 1905973.0,
+      "roas": 5.943,
+      "cvr": 0.1036
+    },
+    {
+      "channel": "Meta Ads \u2014 Meta - Other",
+      "platform": "Meta Ads",
+      "cac": 41.31,
+      "ltv_24m": 70.23,
+      "ltv_cac_ratio": 1.7,
+      "payback_months": 14.1,
+      "health_status": "At Risk",
+      "total_spend": 3671986.0,
+      "roas": 4.58,
+      "cvr": 0.0158
+    },
+    {
+      "channel": "Meta Ads \u2014 Prospecting",
+      "platform": "Meta Ads",
+      "cac": 40.85,
+      "ltv_24m": 77.61,
+      "ltv_cac_ratio": 1.9,
+      "payback_months": 12.6,
+      "health_status": "At Risk",
+      "total_spend": 1818792.0,
+      "roas": 4.622,
+      "cvr": 0.0159
+    },
+    {
+      "channel": "Meta Ads \u2014 Retargeting",
+      "platform": "Meta Ads",
+      "cac": 41.77,
+      "ltv_24m": 112.78,
+      "ltv_cac_ratio": 2.7,
+      "payback_months": 8.9,
+      "health_status": "Marginal",
+      "total_spend": 1782079.0,
+      "roas": 4.53,
+      "cvr": 0.0157
+    }
+  ],
+  "blended_monthly": [
+    {
+      "month_str": "2023-03",
+      "total_spend": 770743.24,
+      "total_new_customers": 7,
+      "blended_cac": 110106.18,
+      "ltv_cac_ratio_24m": 0.38,
+      "payback_months": 63.5,
+      "roas": 0.12
+    },
+    {
+      "month_str": "2023-04",
+      "total_spend": 702353.97,
+      "total_new_customers": 22,
+      "blended_cac": 31925.18,
+      "ltv_cac_ratio_24m": 1.3,
+      "payback_months": 18.4,
+      "roas": 0.43
+    },
+    {
+      "month_str": "2023-05",
+      "total_spend": 734916.85,
+      "total_new_customers": 27,
+      "blended_cac": 27219.14,
+      "ltv_cac_ratio_24m": 1.53,
+      "payback_months": 15.7,
+      "roas": 0.5
+    },
+    {
+      "month_str": "2023-06",
+      "total_spend": 732082.0,
+      "total_new_customers": 29,
+      "blended_cac": 25244.21,
+      "ltv_cac_ratio_24m": 1.65,
+      "payback_months": 14.5,
+      "roas": 0.48
+    },
+    {
+      "month_str": "2023-07",
+      "total_spend": 663014.83,
+      "total_new_customers": 26,
+      "blended_cac": 25500.57,
+      "ltv_cac_ratio_24m": 1.63,
+      "payback_months": 14.7,
+      "roas": 0.47
+    },
+    {
+      "month_str": "2023-08",
+      "total_spend": 677686.76,
+      "total_new_customers": 26,
+      "blended_cac": 26064.88,
+      "ltv_cac_ratio_24m": 1.6,
+      "payback_months": 15.0,
+      "roas": 0.48
+    },
+    {
+      "month_str": "2023-09",
+      "total_spend": 639252.62,
+      "total_new_customers": 38,
+      "blended_cac": 16822.44,
+      "ltv_cac_ratio_24m": 2.48,
+      "payback_months": 9.7,
+      "roas": 0.84
+    },
+    {
+      "month_str": "2023-10",
+      "total_spend": 639691.87,
+      "total_new_customers": 24,
+      "blended_cac": 26653.83,
+      "ltv_cac_ratio_24m": 1.56,
+      "payback_months": 15.4,
+      "roas": 0.49
+    },
+    {
+      "month_str": "2023-11",
+      "total_spend": 637150.72,
+      "total_new_customers": 29,
+      "blended_cac": 21970.71,
+      "ltv_cac_ratio_24m": 1.9,
+      "payback_months": 12.7,
+      "roas": 0.62
+    },
+    {
+      "month_str": "2023-12",
+      "total_spend": 669296.31,
+      "total_new_customers": 35,
+      "blended_cac": 19122.75,
+      "ltv_cac_ratio_24m": 2.18,
+      "payback_months": 11.0,
+      "roas": 0.59
+    },
+    {
+      "month_str": "2024-01",
+      "total_spend": 696124.6,
+      "total_new_customers": 33,
+      "blended_cac": 21094.68,
+      "ltv_cac_ratio_24m": 1.97,
+      "payback_months": 12.2,
+      "roas": 0.62
+    },
+    {
+      "month_str": "2024-02",
+      "total_spend": 716336.15,
+      "total_new_customers": 21,
+      "blended_cac": 34111.25,
+      "ltv_cac_ratio_24m": 1.22,
+      "payback_months": 19.7,
+      "roas": 0.39
+    },
+    {
+      "month_str": "2024-03",
+      "total_spend": 716617.82,
+      "total_new_customers": 33,
+      "blended_cac": 21715.69,
+      "ltv_cac_ratio_24m": 1.92,
+      "payback_months": 12.5,
+      "roas": 0.59
+    },
+    {
+      "month_str": "2024-04",
+      "total_spend": 750151.1,
+      "total_new_customers": 35,
+      "blended_cac": 21432.89,
+      "ltv_cac_ratio_24m": 1.94,
+      "payback_months": 12.4,
+      "roas": 0.59
+    },
+    {
+      "month_str": "2024-05",
+      "total_spend": 777225.66,
+      "total_new_customers": 24,
+      "blended_cac": 32384.4,
+      "ltv_cac_ratio_24m": 1.29,
+      "payback_months": 18.7,
+      "roas": 0.41
+    },
+    {
+      "month_str": "2024-06",
+      "total_spend": 666321.19,
+      "total_new_customers": 20,
+      "blended_cac": 33316.06,
+      "ltv_cac_ratio_24m": 1.25,
+      "payback_months": 19.2,
+      "roas": 0.43
+    },
+    {
+      "month_str": "2024-07",
+      "total_spend": 724914.73,
+      "total_new_customers": 37,
+      "blended_cac": 19592.29,
+      "ltv_cac_ratio_24m": 2.13,
+      "payback_months": 11.3,
+      "roas": 0.78
+    },
+    {
+      "month_str": "2024-08",
+      "total_spend": 643973.11,
+      "total_new_customers": 27,
+      "blended_cac": 23850.86,
+      "ltv_cac_ratio_24m": 1.75,
+      "payback_months": 13.7,
+      "roas": 0.59
+    },
+    {
+      "month_str": "2024-09",
+      "total_spend": 632252.89,
+      "total_new_customers": 29,
+      "blended_cac": 21801.82,
+      "ltv_cac_ratio_24m": 1.91,
+      "payback_months": 12.6,
+      "roas": 0.67
+    },
+    {
+      "month_str": "2024-10",
+      "total_spend": 657074.04,
+      "total_new_customers": 25,
+      "blended_cac": 26282.96,
+      "ltv_cac_ratio_24m": 1.58,
+      "payback_months": 15.1,
+      "roas": 0.5
+    },
+    {
+      "month_str": "2024-11",
+      "total_spend": 641775.02,
+      "total_new_customers": 33,
+      "blended_cac": 19447.73,
+      "ltv_cac_ratio_24m": 2.14,
+      "payback_months": 11.2,
+      "roas": 0.64
+    },
+    {
+      "month_str": "2024-12",
+      "total_spend": 670256.48,
+      "total_new_customers": 25,
+      "blended_cac": 26810.26,
+      "ltv_cac_ratio_24m": 1.55,
+      "payback_months": 15.5,
+      "roas": 0.5
+    }
+  ],
+  "retention_curve": [
+    {
+      "month": 0,
+      "avg_retention": 1.0
+    },
+    {
+      "month": 1,
+      "avg_retention": 0.1899745422940299
+    },
+    {
+      "month": 2,
+      "avg_retention": 0.20243317805528455
+    },
+    {
+      "month": 3,
+      "avg_retention": 0.214720615060073
+    },
+    {
+      "month": 4,
+      "avg_retention": 0.22265555429858883
+    },
+    {
+      "month": 5,
+      "avg_retention": 0.2143056898001124
+    },
+    {
+      "month": 6,
+      "avg_retention": 0.17875371331502382
+    },
+    {
+      "month": 7,
+      "avg_retention": 0.18821902058719012
+    },
+    {
+      "month": 8,
+      "avg_retention": 0.15217293827441444
+    },
+    {
+      "month": 9,
+      "avg_retention": 0.14596422696533934
+    },
+    {
+      "month": 10,
+      "avg_retention": 0.14826135770294654
+    },
+    {
+      "month": 11,
+      "avg_retention": 0.13637047089926965
+    },
+    {
+      "month": 12,
+      "avg_retention": 0.13119687239010738
+    },
+    {
+      "month": 13,
+      "avg_retention": 0.12808984391052294
+    },
+    {
+      "month": 14,
+      "avg_retention": 0.12696118999744221
+    },
+    {
+      "month": 15,
+      "avg_retention": 0.10505480246784728
+    },
+    {
+      "month": 16,
+      "avg_retention": 0.09900293728549571
+    },
+    {
+      "month": 17,
+      "avg_retention": 0.08093010329336703
+    },
+    {
+      "month": 18,
+      "avg_retention": 0.07125706689750089
+    },
+    {
+      "month": 19,
+      "avg_retention": 0.05944067317643295
+    },
+    {
+      "month": 20,
+      "avg_retention": 0.0473236683526276
+    },
+    {
+      "month": 21,
+      "avg_retention": 0.03320158127365718
+    },
+    {
+      "month": 22,
+      "avg_retention": 0.023421620282722364
+    },
+    {
+      "month": 23,
+      "avg_retention": 0.010856319929101584
+    },
+    {
+      "month": 24,
+      "avg_retention": 0.0
+    }
+  ],
+  "new_customers_monthly": [
+    {
+      "month_str": "2023-03",
+      "channel": "Direct",
+      "new_customers": 1,
+      "new_arr": 18827.48,
+      "avg_deal_size": 18827.48
+    },
+    {
+      "month_str": "2023-03",
+      "channel": "Email",
+      "new_customers": 1,
+      "new_arr": 5660.65,
+      "avg_deal_size": 5660.65
+    },
+    {
+      "month_str": "2023-03",
+      "channel": "Non-Brand Search",
+      "new_customers": 2,
+      "new_arr": 12649.26,
+      "avg_deal_size": 6324.63
+    },
+    {
+      "month_str": "2023-03",
+      "channel": "Other",
+      "new_customers": 1,
+      "new_arr": 17401.3,
+      "avg_deal_size": 17401.3
+    },
+    {
+      "month_str": "2023-03",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 37005.29,
+      "avg_deal_size": 18502.64
+    },
+    {
+      "month_str": "2023-04",
+      "channel": "Direct",
+      "new_customers": 2,
+      "new_arr": 39723.15,
+      "avg_deal_size": 19861.58
+    },
+    {
+      "month_str": "2023-04",
+      "channel": "Email",
+      "new_customers": 4,
+      "new_arr": 37824.29,
+      "avg_deal_size": 9456.07
+    },
+    {
+      "month_str": "2023-04",
+      "channel": "Non-Brand Search",
+      "new_customers": 6,
+      "new_arr": 114342.98,
+      "avg_deal_size": 19057.16
+    },
+    {
+      "month_str": "2023-04",
+      "channel": "Other",
+      "new_customers": 1,
+      "new_arr": 12638.08,
+      "avg_deal_size": 12638.08
+    },
+    {
+      "month_str": "2023-04",
+      "channel": "Prospecting",
+      "new_customers": 9,
+      "new_arr": 96714.95,
+      "avg_deal_size": 10746.11
+    },
+    {
+      "month_str": "2023-05",
+      "channel": "Direct",
+      "new_customers": 2,
+      "new_arr": 31371.39,
+      "avg_deal_size": 15685.7
+    },
+    {
+      "month_str": "2023-05",
+      "channel": "Email",
+      "new_customers": 1,
+      "new_arr": 14311.17,
+      "avg_deal_size": 14311.17
+    },
+    {
+      "month_str": "2023-05",
+      "channel": "Non-Brand Search",
+      "new_customers": 9,
+      "new_arr": 108715.68,
+      "avg_deal_size": 12079.52
+    },
+    {
+      "month_str": "2023-05",
+      "channel": "Other",
+      "new_customers": 4,
+      "new_arr": 52435.34,
+      "avg_deal_size": 13108.84
+    },
+    {
+      "month_str": "2023-05",
+      "channel": "Prospecting",
+      "new_customers": 6,
+      "new_arr": 76452.41,
+      "avg_deal_size": 12742.07
+    },
+    {
+      "month_str": "2023-05",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 5,
+      "new_arr": 85293.63,
+      "avg_deal_size": 17058.73
+    },
+    {
+      "month_str": "2023-06",
+      "channel": "Direct",
+      "new_customers": 5,
+      "new_arr": 81303.9,
+      "avg_deal_size": 16260.78
+    },
+    {
+      "month_str": "2023-06",
+      "channel": "Email",
+      "new_customers": 4,
+      "new_arr": 32771.87,
+      "avg_deal_size": 8192.97
+    },
+    {
+      "month_str": "2023-06",
+      "channel": "Non-Brand Search",
+      "new_customers": 3,
+      "new_arr": 32865.21,
+      "avg_deal_size": 10955.07
+    },
+    {
+      "month_str": "2023-06",
+      "channel": "Other",
+      "new_customers": 3,
+      "new_arr": 46064.89,
+      "avg_deal_size": 15354.96
+    },
+    {
+      "month_str": "2023-06",
+      "channel": "Prospecting",
+      "new_customers": 10,
+      "new_arr": 80967.76,
+      "avg_deal_size": 8096.78
+    },
+    {
+      "month_str": "2023-06",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 4,
+      "new_arr": 78930.29,
+      "avg_deal_size": 19732.57
+    },
+    {
+      "month_str": "2023-07",
+      "channel": "Direct",
+      "new_customers": 5,
+      "new_arr": 58521.77,
+      "avg_deal_size": 11704.35
+    },
+    {
+      "month_str": "2023-07",
+      "channel": "Email",
+      "new_customers": 1,
+      "new_arr": 16959.37,
+      "avg_deal_size": 16959.37
+    },
+    {
+      "month_str": "2023-07",
+      "channel": "Non-Brand Search",
+      "new_customers": 9,
+      "new_arr": 103725.22,
+      "avg_deal_size": 11525.02
+    },
+    {
+      "month_str": "2023-07",
+      "channel": "Other",
+      "new_customers": 3,
+      "new_arr": 23137.94,
+      "avg_deal_size": 7712.65
+    },
+    {
+      "month_str": "2023-07",
+      "channel": "Prospecting",
+      "new_customers": 7,
+      "new_arr": 87987.3,
+      "avg_deal_size": 12569.61
+    },
+    {
+      "month_str": "2023-07",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 1,
+      "new_arr": 19051.43,
+      "avg_deal_size": 19051.43
+    },
+    {
+      "month_str": "2023-08",
+      "channel": "Direct",
+      "new_customers": 3,
+      "new_arr": 13198.64,
+      "avg_deal_size": 4399.55
+    },
+    {
+      "month_str": "2023-08",
+      "channel": "Email",
+      "new_customers": 5,
+      "new_arr": 74629.11,
+      "avg_deal_size": 14925.82
+    },
+    {
+      "month_str": "2023-08",
+      "channel": "Non-Brand Search",
+      "new_customers": 4,
+      "new_arr": 55090.04,
+      "avg_deal_size": 13772.51
+    },
+    {
+      "month_str": "2023-08",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 30416.34,
+      "avg_deal_size": 15208.17
+    },
+    {
+      "month_str": "2023-08",
+      "channel": "Prospecting",
+      "new_customers": 10,
+      "new_arr": 133698.61,
+      "avg_deal_size": 13369.86
+    },
+    {
+      "month_str": "2023-08",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 18452.97,
+      "avg_deal_size": 9226.48
+    },
+    {
+      "month_str": "2023-09",
+      "channel": "Direct",
+      "new_customers": 4,
+      "new_arr": 82148.71,
+      "avg_deal_size": 20537.18
+    },
+    {
+      "month_str": "2023-09",
+      "channel": "Email",
+      "new_customers": 6,
+      "new_arr": 74008.04,
+      "avg_deal_size": 12334.67
+    },
+    {
+      "month_str": "2023-09",
+      "channel": "Non-Brand Search",
+      "new_customers": 11,
+      "new_arr": 168804.7,
+      "avg_deal_size": 15345.88
+    },
+    {
+      "month_str": "2023-09",
+      "channel": "Other",
+      "new_customers": 4,
+      "new_arr": 25915.9,
+      "avg_deal_size": 6478.98
+    },
+    {
+      "month_str": "2023-09",
+      "channel": "Prospecting",
+      "new_customers": 8,
+      "new_arr": 113571.48,
+      "avg_deal_size": 14196.44
+    },
+    {
+      "month_str": "2023-09",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 5,
+      "new_arr": 72259.01,
+      "avg_deal_size": 14451.8
+    },
+    {
+      "month_str": "2023-10",
+      "channel": "Direct",
+      "new_customers": 5,
+      "new_arr": 69990.27,
+      "avg_deal_size": 13998.05
+    },
+    {
+      "month_str": "2023-10",
+      "channel": "Email",
+      "new_customers": 4,
+      "new_arr": 55898.22,
+      "avg_deal_size": 13974.56
+    },
+    {
+      "month_str": "2023-10",
+      "channel": "Non-Brand Search",
+      "new_customers": 3,
+      "new_arr": 27227.28,
+      "avg_deal_size": 9075.76
+    },
+    {
+      "month_str": "2023-10",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 29881.68,
+      "avg_deal_size": 14940.84
+    },
+    {
+      "month_str": "2023-10",
+      "channel": "Prospecting",
+      "new_customers": 8,
+      "new_arr": 86734.94,
+      "avg_deal_size": 10841.87
+    },
+    {
+      "month_str": "2023-10",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 42853.04,
+      "avg_deal_size": 21426.52
+    },
+    {
+      "month_str": "2023-11",
+      "channel": "Direct",
+      "new_customers": 7,
+      "new_arr": 93194.81,
+      "avg_deal_size": 13313.54
+    },
+    {
+      "month_str": "2023-11",
+      "channel": "Email",
+      "new_customers": 4,
+      "new_arr": 58384.06,
+      "avg_deal_size": 14596.02
+    },
+    {
+      "month_str": "2023-11",
+      "channel": "Non-Brand Search",
+      "new_customers": 3,
+      "new_arr": 39438.74,
+      "avg_deal_size": 13146.25
+    },
+    {
+      "month_str": "2023-11",
+      "channel": "Other",
+      "new_customers": 4,
+      "new_arr": 46102.28,
+      "avg_deal_size": 11525.57
+    },
+    {
+      "month_str": "2023-11",
+      "channel": "Prospecting",
+      "new_customers": 7,
+      "new_arr": 89969.01,
+      "avg_deal_size": 12852.72
+    },
+    {
+      "month_str": "2023-11",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 4,
+      "new_arr": 65839.98,
+      "avg_deal_size": 16460.0
+    },
+    {
+      "month_str": "2023-12",
+      "channel": "Direct",
+      "new_customers": 6,
+      "new_arr": 49964.12,
+      "avg_deal_size": 8327.35
+    },
+    {
+      "month_str": "2023-12",
+      "channel": "Email",
+      "new_customers": 5,
+      "new_arr": 46464.08,
+      "avg_deal_size": 9292.82
+    },
+    {
+      "month_str": "2023-12",
+      "channel": "Non-Brand Search",
+      "new_customers": 9,
+      "new_arr": 107115.24,
+      "avg_deal_size": 11901.69
+    },
+    {
+      "month_str": "2023-12",
+      "channel": "Other",
+      "new_customers": 6,
+      "new_arr": 97391.22,
+      "avg_deal_size": 16231.87
+    },
+    {
+      "month_str": "2023-12",
+      "channel": "Prospecting",
+      "new_customers": 6,
+      "new_arr": 48864.2,
+      "avg_deal_size": 8144.03
+    },
+    {
+      "month_str": "2023-12",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 3,
+      "new_arr": 45929.56,
+      "avg_deal_size": 15309.85
+    },
+    {
+      "month_str": "2024-01",
+      "channel": "Direct",
+      "new_customers": 6,
+      "new_arr": 115207.93,
+      "avg_deal_size": 19201.32
+    },
+    {
+      "month_str": "2024-01",
+      "channel": "Email",
+      "new_customers": 1,
+      "new_arr": 14960.91,
+      "avg_deal_size": 14960.91
+    },
+    {
+      "month_str": "2024-01",
+      "channel": "Non-Brand Search",
+      "new_customers": 7,
+      "new_arr": 77019.21,
+      "avg_deal_size": 11002.74
+    },
+    {
+      "month_str": "2024-01",
+      "channel": "Other",
+      "new_customers": 6,
+      "new_arr": 63596.01,
+      "avg_deal_size": 10599.34
+    },
+    {
+      "month_str": "2024-01",
+      "channel": "Prospecting",
+      "new_customers": 10,
+      "new_arr": 147187.75,
+      "avg_deal_size": 14718.78
+    },
+    {
+      "month_str": "2024-01",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 3,
+      "new_arr": 16240.28,
+      "avg_deal_size": 5413.43
+    },
+    {
+      "month_str": "2024-02",
+      "channel": "Direct",
+      "new_customers": 4,
+      "new_arr": 50274.0,
+      "avg_deal_size": 12568.5
+    },
+    {
+      "month_str": "2024-02",
+      "channel": "Email",
+      "new_customers": 2,
+      "new_arr": 18374.06,
+      "avg_deal_size": 9187.03
+    },
+    {
+      "month_str": "2024-02",
+      "channel": "Non-Brand Search",
+      "new_customers": 6,
+      "new_arr": 70259.08,
+      "avg_deal_size": 11709.85
+    },
+    {
+      "month_str": "2024-02",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 35713.21,
+      "avg_deal_size": 17856.6
+    },
+    {
+      "month_str": "2024-02",
+      "channel": "Prospecting",
+      "new_customers": 6,
+      "new_arr": 82396.93,
+      "avg_deal_size": 13732.82
+    },
+    {
+      "month_str": "2024-02",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 1,
+      "new_arr": 23372.39,
+      "avg_deal_size": 23372.39
+    },
+    {
+      "month_str": "2024-03",
+      "channel": "Direct",
+      "new_customers": 3,
+      "new_arr": 25860.86,
+      "avg_deal_size": 8620.29
+    },
+    {
+      "month_str": "2024-03",
+      "channel": "Email",
+      "new_customers": 2,
+      "new_arr": 40358.61,
+      "avg_deal_size": 20179.3
+    },
+    {
+      "month_str": "2024-03",
+      "channel": "Non-Brand Search",
+      "new_customers": 11,
+      "new_arr": 148195.83,
+      "avg_deal_size": 13472.35
+    },
+    {
+      "month_str": "2024-03",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 23299.83,
+      "avg_deal_size": 11649.92
+    },
+    {
+      "month_str": "2024-03",
+      "channel": "Prospecting",
+      "new_customers": 13,
+      "new_arr": 139988.33,
+      "avg_deal_size": 10768.33
+    },
+    {
+      "month_str": "2024-03",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 45277.72,
+      "avg_deal_size": 22638.86
+    },
+    {
+      "month_str": "2024-04",
+      "channel": "Direct",
+      "new_customers": 1,
+      "new_arr": 4730.09,
+      "avg_deal_size": 4730.09
+    },
+    {
+      "month_str": "2024-04",
+      "channel": "Email",
+      "new_customers": 2,
+      "new_arr": 18153.79,
+      "avg_deal_size": 9076.9
+    },
+    {
+      "month_str": "2024-04",
+      "channel": "Non-Brand Search",
+      "new_customers": 12,
+      "new_arr": 180287.31,
+      "avg_deal_size": 15023.94
+    },
+    {
+      "month_str": "2024-04",
+      "channel": "Other",
+      "new_customers": 4,
+      "new_arr": 37032.04,
+      "avg_deal_size": 9258.01
+    },
+    {
+      "month_str": "2024-04",
+      "channel": "Prospecting",
+      "new_customers": 10,
+      "new_arr": 102398.77,
+      "avg_deal_size": 10239.88
+    },
+    {
+      "month_str": "2024-04",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 6,
+      "new_arr": 98166.86,
+      "avg_deal_size": 16361.14
+    },
+    {
+      "month_str": "2024-05",
+      "channel": "Direct",
+      "new_customers": 3,
+      "new_arr": 44643.29,
+      "avg_deal_size": 14881.1
+    },
+    {
+      "month_str": "2024-05",
+      "channel": "Email",
+      "new_customers": 3,
+      "new_arr": 47388.75,
+      "avg_deal_size": 15796.25
+    },
+    {
+      "month_str": "2024-05",
+      "channel": "Non-Brand Search",
+      "new_customers": 7,
+      "new_arr": 72677.34,
+      "avg_deal_size": 10382.48
+    },
+    {
+      "month_str": "2024-05",
+      "channel": "Other",
+      "new_customers": 3,
+      "new_arr": 52871.37,
+      "avg_deal_size": 17623.79
+    },
+    {
+      "month_str": "2024-05",
+      "channel": "Prospecting",
+      "new_customers": 6,
+      "new_arr": 69475.67,
+      "avg_deal_size": 11579.28
+    },
+    {
+      "month_str": "2024-05",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 30729.69,
+      "avg_deal_size": 15364.84
+    },
+    {
+      "month_str": "2024-06",
+      "channel": "Direct",
+      "new_customers": 1,
+      "new_arr": 12352.72,
+      "avg_deal_size": 12352.72
+    },
+    {
+      "month_str": "2024-06",
+      "channel": "Email",
+      "new_customers": 4,
+      "new_arr": 45361.14,
+      "avg_deal_size": 11340.28
+    },
+    {
+      "month_str": "2024-06",
+      "channel": "Non-Brand Search",
+      "new_customers": 5,
+      "new_arr": 68688.11,
+      "avg_deal_size": 13737.62
+    },
+    {
+      "month_str": "2024-06",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 18536.75,
+      "avg_deal_size": 9268.38
+    },
+    {
+      "month_str": "2024-06",
+      "channel": "Prospecting",
+      "new_customers": 4,
+      "new_arr": 67171.77,
+      "avg_deal_size": 16792.94
+    },
+    {
+      "month_str": "2024-06",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 4,
+      "new_arr": 74944.66,
+      "avg_deal_size": 18736.16
+    },
+    {
+      "month_str": "2024-07",
+      "channel": "Direct",
+      "new_customers": 5,
+      "new_arr": 76214.69,
+      "avg_deal_size": 15242.94
+    },
+    {
+      "month_str": "2024-07",
+      "channel": "Email",
+      "new_customers": 3,
+      "new_arr": 29802.53,
+      "avg_deal_size": 9934.18
+    },
+    {
+      "month_str": "2024-07",
+      "channel": "Non-Brand Search",
+      "new_customers": 9,
+      "new_arr": 148706.98,
+      "avg_deal_size": 16523.0
+    },
+    {
+      "month_str": "2024-07",
+      "channel": "Other",
+      "new_customers": 6,
+      "new_arr": 93541.47,
+      "avg_deal_size": 15590.24
+    },
+    {
+      "month_str": "2024-07",
+      "channel": "Prospecting",
+      "new_customers": 10,
+      "new_arr": 166371.2,
+      "avg_deal_size": 16637.12
+    },
+    {
+      "month_str": "2024-07",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 4,
+      "new_arr": 52020.06,
+      "avg_deal_size": 13005.02
+    },
+    {
+      "month_str": "2024-08",
+      "channel": "Direct",
+      "new_customers": 2,
+      "new_arr": 19523.25,
+      "avg_deal_size": 9761.62
+    },
+    {
+      "month_str": "2024-08",
+      "channel": "Email",
+      "new_customers": 3,
+      "new_arr": 49319.93,
+      "avg_deal_size": 16439.98
+    },
+    {
+      "month_str": "2024-08",
+      "channel": "Non-Brand Search",
+      "new_customers": 7,
+      "new_arr": 127050.92,
+      "avg_deal_size": 18150.13
+    },
+    {
+      "month_str": "2024-08",
+      "channel": "Other",
+      "new_customers": 5,
+      "new_arr": 44409.59,
+      "avg_deal_size": 8881.92
+    },
+    {
+      "month_str": "2024-08",
+      "channel": "Prospecting",
+      "new_customers": 8,
+      "new_arr": 118822.31,
+      "avg_deal_size": 14852.79
+    },
+    {
+      "month_str": "2024-08",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 22707.92,
+      "avg_deal_size": 11353.96
+    },
+    {
+      "month_str": "2024-09",
+      "channel": "Direct",
+      "new_customers": 4,
+      "new_arr": 70658.45,
+      "avg_deal_size": 17664.61
+    },
+    {
+      "month_str": "2024-09",
+      "channel": "Email",
+      "new_customers": 4,
+      "new_arr": 44607.52,
+      "avg_deal_size": 11151.88
+    },
+    {
+      "month_str": "2024-09",
+      "channel": "Non-Brand Search",
+      "new_customers": 12,
+      "new_arr": 159593.72,
+      "avg_deal_size": 13299.48
+    },
+    {
+      "month_str": "2024-09",
+      "channel": "Other",
+      "new_customers": 1,
+      "new_arr": 18683.26,
+      "avg_deal_size": 18683.26
+    },
+    {
+      "month_str": "2024-09",
+      "channel": "Prospecting",
+      "new_customers": 6,
+      "new_arr": 85702.2,
+      "avg_deal_size": 14283.7
+    },
+    {
+      "month_str": "2024-09",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 42089.52,
+      "avg_deal_size": 21044.76
+    },
+    {
+      "month_str": "2024-10",
+      "channel": "Direct",
+      "new_customers": 3,
+      "new_arr": 48114.01,
+      "avg_deal_size": 16038.0
+    },
+    {
+      "month_str": "2024-10",
+      "channel": "Email",
+      "new_customers": 1,
+      "new_arr": 22569.35,
+      "avg_deal_size": 22569.35
+    },
+    {
+      "month_str": "2024-10",
+      "channel": "Non-Brand Search",
+      "new_customers": 9,
+      "new_arr": 126914.58,
+      "avg_deal_size": 14101.62
+    },
+    {
+      "month_str": "2024-10",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 30586.56,
+      "avg_deal_size": 15293.28
+    },
+    {
+      "month_str": "2024-10",
+      "channel": "Prospecting",
+      "new_customers": 8,
+      "new_arr": 89824.1,
+      "avg_deal_size": 11228.01
+    },
+    {
+      "month_str": "2024-10",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 8370.23,
+      "avg_deal_size": 4185.12
+    },
+    {
+      "month_str": "2024-11",
+      "channel": "Direct",
+      "new_customers": 2,
+      "new_arr": 38347.03,
+      "avg_deal_size": 19173.52
+    },
+    {
+      "month_str": "2024-11",
+      "channel": "Email",
+      "new_customers": 6,
+      "new_arr": 72116.27,
+      "avg_deal_size": 12019.38
+    },
+    {
+      "month_str": "2024-11",
+      "channel": "Non-Brand Search",
+      "new_customers": 8,
+      "new_arr": 111307.92,
+      "avg_deal_size": 13913.49
+    },
+    {
+      "month_str": "2024-11",
+      "channel": "Other",
+      "new_customers": 4,
+      "new_arr": 37095.4,
+      "avg_deal_size": 9273.85
+    },
+    {
+      "month_str": "2024-11",
+      "channel": "Prospecting",
+      "new_customers": 11,
+      "new_arr": 125151.49,
+      "avg_deal_size": 11377.41
+    },
+    {
+      "month_str": "2024-11",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 2,
+      "new_arr": 25867.66,
+      "avg_deal_size": 12933.83
+    },
+    {
+      "month_str": "2024-12",
+      "channel": "Direct",
+      "new_customers": 5,
+      "new_arr": 41466.99,
+      "avg_deal_size": 8293.4
+    },
+    {
+      "month_str": "2024-12",
+      "channel": "Email",
+      "new_customers": 2,
+      "new_arr": 37511.82,
+      "avg_deal_size": 18755.91
+    },
+    {
+      "month_str": "2024-12",
+      "channel": "Non-Brand Search",
+      "new_customers": 8,
+      "new_arr": 81397.53,
+      "avg_deal_size": 10174.69
+    },
+    {
+      "month_str": "2024-12",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 40809.03,
+      "avg_deal_size": 20404.52
+    },
+    {
+      "month_str": "2024-12",
+      "channel": "Prospecting",
+      "new_customers": 4,
+      "new_arr": 85397.55,
+      "avg_deal_size": 21349.39
+    },
+    {
+      "month_str": "2024-12",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 4,
+      "new_arr": 50886.81,
+      "avg_deal_size": 12721.7
+    },
+    {
+      "month_str": "2025-01",
+      "channel": "Direct",
+      "new_customers": 2,
+      "new_arr": 25477.17,
+      "avg_deal_size": 12738.58
+    },
+    {
+      "month_str": "2025-01",
+      "channel": "Non-Brand Search",
+      "new_customers": 5,
+      "new_arr": 36367.6,
+      "avg_deal_size": 7273.52
+    },
+    {
+      "month_str": "2025-01",
+      "channel": "Other",
+      "new_customers": 4,
+      "new_arr": 53405.34,
+      "avg_deal_size": 13351.34
+    },
+    {
+      "month_str": "2025-01",
+      "channel": "Prospecting",
+      "new_customers": 13,
+      "new_arr": 159669.06,
+      "avg_deal_size": 12282.24
+    },
+    {
+      "month_str": "2025-01",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 4,
+      "new_arr": 56339.69,
+      "avg_deal_size": 14084.92
+    },
+    {
+      "month_str": "2025-02",
+      "channel": "Email",
+      "new_customers": 2,
+      "new_arr": 30534.58,
+      "avg_deal_size": 15267.29
+    },
+    {
+      "month_str": "2025-02",
+      "channel": "Non-Brand Search",
+      "new_customers": 8,
+      "new_arr": 110009.95,
+      "avg_deal_size": 13751.24
+    },
+    {
+      "month_str": "2025-02",
+      "channel": "Other",
+      "new_customers": 3,
+      "new_arr": 52495.62,
+      "avg_deal_size": 17498.54
+    },
+    {
+      "month_str": "2025-02",
+      "channel": "Prospecting",
+      "new_customers": 7,
+      "new_arr": 100531.71,
+      "avg_deal_size": 14361.67
+    },
+    {
+      "month_str": "2025-02",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 4,
+      "new_arr": 65956.4,
+      "avg_deal_size": 16489.1
+    },
+    {
+      "month_str": "2025-03",
+      "channel": "Email",
+      "new_customers": 3,
+      "new_arr": 26643.47,
+      "avg_deal_size": 8881.16
+    },
+    {
+      "month_str": "2025-03",
+      "channel": "Non-Brand Search",
+      "new_customers": 6,
+      "new_arr": 84686.17,
+      "avg_deal_size": 14114.36
+    },
+    {
+      "month_str": "2025-03",
+      "channel": "Other",
+      "new_customers": 3,
+      "new_arr": 33269.92,
+      "avg_deal_size": 11089.97
+    },
+    {
+      "month_str": "2025-03",
+      "channel": "Prospecting",
+      "new_customers": 2,
+      "new_arr": 14427.26,
+      "avg_deal_size": 7213.63
+    },
+    {
+      "month_str": "2025-03",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 1,
+      "new_arr": 16778.81,
+      "avg_deal_size": 16778.81
+    },
+    {
+      "month_str": "2025-04",
+      "channel": "Email",
+      "new_customers": 1,
+      "new_arr": 8292.78,
+      "avg_deal_size": 8292.78
+    },
+    {
+      "month_str": "2025-04",
+      "channel": "Non-Brand Search",
+      "new_customers": 3,
+      "new_arr": 52158.17,
+      "avg_deal_size": 17386.06
+    },
+    {
+      "month_str": "2025-04",
+      "channel": "Other",
+      "new_customers": 2,
+      "new_arr": 30279.7,
+      "avg_deal_size": 15139.85
+    },
+    {
+      "month_str": "2025-04",
+      "channel": "Prospecting",
+      "new_customers": 2,
+      "new_arr": 22132.9,
+      "avg_deal_size": 11066.45
+    },
+    {
+      "month_str": "2025-04",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 3,
+      "new_arr": 37348.35,
+      "avg_deal_size": 12449.45
+    },
+    {
+      "month_str": "2025-05",
+      "channel": "Direct",
+      "new_customers": 2,
+      "new_arr": 20934.63,
+      "avg_deal_size": 10467.32
+    },
+    {
+      "month_str": "2025-05",
+      "channel": "Email",
+      "new_customers": 1,
+      "new_arr": 13366.27,
+      "avg_deal_size": 13366.27
+    },
+    {
+      "month_str": "2025-05",
+      "channel": "Non-Brand Search",
+      "new_customers": 1,
+      "new_arr": 10180.52,
+      "avg_deal_size": 10180.52
+    },
+    {
+      "month_str": "2025-05",
+      "channel": "Other",
+      "new_customers": 1,
+      "new_arr": 8652.67,
+      "avg_deal_size": 8652.67
+    },
+    {
+      "month_str": "2025-05",
+      "channel": "Referral / Word of Mouth",
+      "new_customers": 1,
+      "new_arr": 4450.55,
+      "avg_deal_size": 4450.55
+    }
+  ]
+}

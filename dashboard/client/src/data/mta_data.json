@@ -1,0 +1,120 @@
+{
+  "attribution": [
+    {
+      "channel": "Affiliate",
+      "shapley_rev": 144565.0,
+      "markov_rev": 109313.0,
+      "linear_rev": 86879.0,
+      "first_touch_rev": 86879.0,
+      "last_touch_rev": 86879.0,
+      "time_decay_rev": 86879.0,
+      "u_shape_rev": 86879.0,
+      "markov_weight": 0.1683,
+      "shapley_weight": 0.2226
+    },
+    {
+      "channel": "Direct",
+      "shapley_rev": 61759.0,
+      "markov_rev": 50452.0,
+      "linear_rev": 75693.0,
+      "first_touch_rev": 75693.0,
+      "last_touch_rev": 75693.0,
+      "time_decay_rev": 75693.0,
+      "u_shape_rev": 75693.0,
+      "markov_weight": 0.0777,
+      "shapley_weight": 0.0951
+    },
+    {
+      "channel": "Email",
+      "shapley_rev": 223817.0,
+      "markov_rev": 67270.0,
+      "linear_rev": 78565.0,
+      "first_touch_rev": 78565.0,
+      "last_touch_rev": 78565.0,
+      "time_decay_rev": 78565.0,
+      "u_shape_rev": 78565.0,
+      "markov_weight": 0.1036,
+      "shapley_weight": 0.3446
+    },
+    {
+      "channel": "Organic Search",
+      "shapley_rev": 70354.0,
+      "markov_rev": 8409.0,
+      "linear_rev": 83670.0,
+      "first_touch_rev": 83670.0,
+      "last_touch_rev": 83670.0,
+      "time_decay_rev": 83670.0,
+      "u_shape_rev": 83670.0,
+      "markov_weight": 0.0129,
+      "shapley_weight": 0.1083
+    },
+    {
+      "channel": "Paid Search",
+      "shapley_rev": 0.0,
+      "markov_rev": 159766.0,
+      "linear_rev": 160943.0,
+      "first_touch_rev": 160943.0,
+      "last_touch_rev": 160943.0,
+      "time_decay_rev": 160943.0,
+      "u_shape_rev": 160943.0,
+      "markov_weight": 0.246,
+      "shapley_weight": 0.0
+    },
+    {
+      "channel": "Paid Social",
+      "shapley_rev": 149079.0,
+      "markov_rev": 254364.0,
+      "linear_rev": 163823.0,
+      "first_touch_rev": 163823.0,
+      "last_touch_rev": 163823.0,
+      "time_decay_rev": 163823.0,
+      "u_shape_rev": 163823.0,
+      "markov_weight": 0.3916,
+      "shapley_weight": 0.2295
+    }
+  ],
+  "top_paths": [
+    {
+      "path": "Paid Social",
+      "journeys": 12529,
+      "conversions": 1006,
+      "revenue": 163822.76,
+      "conversion_rate": 0.0803
+    },
+    {
+      "path": "Paid Search",
+      "journeys": 12519,
+      "conversions": 993,
+      "revenue": 160943.42,
+      "conversion_rate": 0.0793
+    },
+    {
+      "path": "Affiliate",
+      "journeys": 6247,
+      "conversions": 510,
+      "revenue": 86879.45,
+      "conversion_rate": 0.0816
+    },
+    {
+      "path": "Organic Search",
+      "journeys": 6226,
+      "conversions": 493,
+      "revenue": 83669.81,
+      "conversion_rate": 0.0792
+    },
+    {
+      "path": "Email",
+      "journeys": 6229,
+      "conversions": 476,
+      "revenue": 78564.56,
+      "conversion_rate": 0.0764
+    },
+    {
+      "path": "Direct",
+      "journeys": 6250,
+      "conversions": 466,
+      "revenue": 75693.46,
+      "conversion_rate": 0.0746
+    }
+  ]
+}

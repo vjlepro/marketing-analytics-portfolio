@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Deep navy analytics palette */
+    --background: 222 47% 7%;
+    --foreground: 213 31% 91%;
+
+    --card: 222 40% 10%;
+    --card-foreground: 213 31% 91%;
+
+    --popover: 222 40% 10%;
+    --popover-foreground: 213 31% 91%;
+
+    --primary: 199 89% 48%;
+    --primary-foreground: 222 47% 7%;
+
+    --secondary: 222 30% 16%;
+    --secondary-foreground: 213 31% 91%;
+
+    --muted: 222 30% 14%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 262 80% 65%;
+    --accent-foreground: 213 31% 91%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 213 31% 91%;
+
+    --border: 222 25% 18%;
+    --input: 222 30% 16%;
+    --ring: 199 89% 48%;
+
+    --radius: 0.5rem;
+
+    /* Chart colors */
+    --chart-1: 199 89% 48%;
+    --chart-2: 262 80% 65%;
+    --chart-3: 158 64% 52%;
+    --chart-4: 35 91% 55%;
+    --chart-5: 340 82% 60%;
+    --chart-6: 187 60% 50%;
+    --chart-7: 280 65% 60%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: hsl(var(--background)); }
+  ::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground)); }
+}
+
+@layer utilities {
+  .chart-grid line { stroke: hsl(var(--border)) !important; stroke-opacity: 0.5; }
+  .chart-grid path { stroke: none; }
+
+  .kpi-positive { color: hsl(158 64% 52%); }
+  .kpi-negative { color: hsl(0 72% 51%); }
+  .kpi-neutral  { color: hsl(35 91% 55%); }
+
+  .glass {
+    background: hsl(var(--card) / 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--border));
+  }
+
+  .glow-primary {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.15);
+  }
+
+  .data-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+  }
+
+  .section-title {
+    @apply text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3;
+  }
+
+  .metric-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+}
