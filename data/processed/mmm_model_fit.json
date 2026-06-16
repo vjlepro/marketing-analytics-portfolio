@@ -1,0 +1,10 @@
+{
+  "r2_ols": 0.9449,
+  "r2_ridge": 0.6673,
+  "mape": 0.0203,
+  "total_weeks": 106,
+  "total_revenue_modeled": 54991693.39,
+  "base_revenue_pct": 0.1671,
+  "paid_media_pct": 0.8344,
+  "budget_lift_potential": 0.0
+}

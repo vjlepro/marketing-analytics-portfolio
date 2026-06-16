@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Node / Dashboard
+node_modules/
+dist/
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional — remove these lines if you want to commit data)
+# data/raw/*.csv
+data/raw/*.csv
+data/raw/*.csv

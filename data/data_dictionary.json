@@ -1,0 +1,105 @@
+{
+  "project": "Marketing Analytics Portfolio \u2014 Platform-Accurate Synthetic Data",
+  "author": "Vincent Lepore",
+  "sources": {
+    "hubspot_contacts.csv": {
+      "description": "HubSpot CRM Contacts object export",
+      "real_endpoint": "GET /crm/v3/objects/contacts?properties=vid,email,firstname,lastname,lifecyclestage,hs_analytics_source,...",
+      "rows": 12000,
+      "key_fields": [
+        "vid",
+        "lifecyclestage",
+        "hs_analytics_source",
+        "hs_analytics_num_visits"
+      ]
+    },
+    "hubspot_deals.csv": {
+      "description": "HubSpot CRM Deals object export",
+      "real_endpoint": "GET /crm/v3/objects/deals?properties=hs_deal_id,dealstage,amount,closedate,...",
+      "rows": 4971,
+      "key_fields": [
+        "hs_deal_id",
+        "dealstage",
+        "amount",
+        "days_to_close",
+        "hs_deal_is_closed_won"
+      ]
+    },
+    "salesforce_opportunities.csv": {
+      "description": "Salesforce Opportunity object via SOQL",
+      "real_endpoint": "SELECT Id,StageName,Amount,CloseDate,LeadSource,CampaignId FROM Opportunity",
+      "rows": 3500,
+      "key_fields": [
+        "Id",
+        "StageName",
+        "Amount",
+        "IsWon",
+        "FiscalQuarter",
+        "LeadSource"
+      ]
+    },
+    "salesforce_campaigns.csv": {
+      "description": "Salesforce Campaign object via SOQL",
+      "real_endpoint": "SELECT Id,Name,Type,ActualCost,NumberOfLeads,AmountWonOpportunities FROM Campaign",
+      "rows": 40,
+      "key_fields": [
+        "Id",
+        "ActualCost",
+        "NumberOfWonOpportunities",
+        "AmountWonOpportunities"
+      ]
+    },
+    "ga4_events.csv": {
+      "description": "Google Analytics 4 \u2014 BigQuery flat export schema",
+      "real_endpoint": "SELECT * FROM `project.analytics_XXXXXX.events_*` WHERE event_name IN (...)",
+      "rows": 53944,
+      "key_fields": [
+        "user_pseudo_id",
+        "event_name",
+        "traffic_source.source",
+        "traffic_source.medium",
+        "ecommerce.purchase_revenue_in_usd"
+      ]
+    },
+    "google_ads_daily.csv": {
+      "description": "Google Ads Reporting API \u2014 campaign/adgroup daily metrics",
+      "real_endpoint": "gaql: SELECT campaign.id, metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions FROM campaign WHERE segments.date BETWEEN ...",
+      "rows": 7310,
+      "key_fields": [
+        "segments.date",
+        "campaign.name",
+        "metrics.cost",
+        "metrics.conversions",
+        "metrics.roas"
+      ]
+    },
+    "meta_ads_daily.csv": {
+      "description": "Meta Ads Marketing API \u2014 Ads Insights endpoint",
+      "real_endpoint": "AdAccount.get_insights(fields=[spend, impressions, clicks, actions, purchase_roas], params={level: adset})",
+      "rows": 26247,
+      "key_fields": [
+        "date_start",
+        "campaign_name",
+        "spend",
+        "actions.purchase",
+        "purchase_roas",
+        "age",
+        "gender"
+      ]
+    },
+    "netsuite_transactions.csv": {
+      "description": "NetSuite ERP \u2014 SuiteAnalytics ODBC transaction export",
+      "real_endpoint": "ODBC: SELECT t.ID, t.TranDate, t.Amount, tl.Item, tl.Department FROM Transactions JOIN TransactionLines ON ...",
+      "rows": 37405,
+      "key_fields": [
+        "TranID",
+        "RecordType",
+        "Entity",
+        "Amount",
+        "Department",
+        "Class",
+        "PostingPeriod"
+      ]
+    }
+  }
+}
