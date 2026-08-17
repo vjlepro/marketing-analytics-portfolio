@@ -11,6 +11,7 @@ import CAC from '@/pages/CAC';
 import MMM from '@/pages/MMM';
 import DataSources from '@/pages/DataSources';
 import AIAnalyst from '@/pages/AIAnalyst';
+import Portfolio from '@/pages/Portfolio';
 import NotFound from '@/pages/not-found';
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
                 <Route path="/mmm" component={MMM} />
                 <Route path="/data" component={DataSources} />
                 <Route path="/ai-analyst" component={AIAnalyst} />
+                <Route path="/about" component={Portfolio} />
                 <Route component={NotFound} />
               </Switch>
             </main>

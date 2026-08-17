@@ -1,5 +1,9 @@
 import { Link, useLocation } from 'wouter';
-import { BarChart3, GitBranch, TrendingDown, Activity, Database, ChevronRight, Sparkles } from 'lucide-react';
+import { BarChart3, GitBranch, TrendingDown, Activity, Database, ChevronRight, Sparkles, Home } from 'lucide-react';
+
+const PORTFOLIO_NAV = [
+  { href: '/about', label: 'Portfolio', icon: Home, desc: 'About & Projects' },
+];
 
 const NAV = [
   { href: '/',     label: 'Overview',   icon: Activity,     desc: 'KPI Summary' },
@@ -34,7 +38,31 @@ export default function Sidebar() {
 
       {/* Nav */}
       <nav className="flex-1 px-2 py-4 space-y-0.5">
-        <p className="section-title px-2 mb-2">Models</p>
+        <p className="section-title px-2 mb-2">About</p>
+        {PORTFOLIO_NAV.map(({ href, label, icon: Icon, desc }) => {
+          const active = location === href;
+          return (
+            <Link key={href} href={href}>
+              <a
+                data-testid={`nav-${label.toLowerCase().replace(/\s+/g,'-')}`}
+                className={`
+                  group flex items-center gap-3 px-3 py-2.5 rounded-md cursor-pointer transition-all
+                  ${active
+                    ? 'bg-primary/15 text-primary border border-primary/20'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-secondary'}
+                `}
+              >
+                <Icon size={15} className={active ? 'text-primary' : 'text-muted-foreground group-hover:text-foreground'} />
+                <div className="flex-1 min-w-0">
+                  <div className={`text-xs font-medium ${active ? 'text-primary' : ''}`}>{label}</div>
+                  <div className="text-[10px] text-muted-foreground truncate">{desc}</div>
+                </div>
+                {active && <ChevronRight size={12} className="text-primary flex-shrink-0" />}
+              </a>
+            </Link>
+          );
+        })}
+        <p className="section-title px-2 mb-2 mt-3">Models</p>
         {NAV.map(({ href, label, icon: Icon, desc }) => {
           const active = location === href;
           return (
