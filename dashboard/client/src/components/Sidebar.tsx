@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'wouter';
-import { BarChart3, GitBranch, TrendingDown, Activity, Database, ChevronRight, Sparkles, Home } from 'lucide-react';
+import { BarChart3, GitBranch, TrendingDown, Activity, Database, ChevronRight, Sparkles, Home, ClipboardCheck } from 'lucide-react';
 
 const PORTFOLIO_NAV = [
   { href: '/about', label: 'Portfolio', icon: Home, desc: 'About & Projects' },
@@ -12,6 +12,7 @@ const NAV = [
   { href: '/mmm',  label: 'MMM',        icon: BarChart3,    desc: 'Mix Modeling' },
   { href: '/data', label: 'Data Sources', icon: Database,   desc: 'Pipeline Info' },
   { href: '/ai-analyst', label: 'AI Analyst', icon: Sparkles,  desc: 'Executive Briefs' },
+  { href: '/scorecard',  label: 'Maturity Score', icon: ClipboardCheck, desc: 'Org Assessment' },
 ];
 
 export default function Sidebar() {

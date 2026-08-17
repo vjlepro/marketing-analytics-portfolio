@@ -12,6 +12,7 @@ import MMM from '@/pages/MMM';
 import DataSources from '@/pages/DataSources';
 import AIAnalyst from '@/pages/AIAnalyst';
 import Portfolio from '@/pages/Portfolio';
+import Scorecard from '@/pages/Scorecard';
 import NotFound from '@/pages/not-found';
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
                 <Route path="/mta" component={MTA} />
                 <Route path="/cac" component={CAC} />
                 <Route path="/mmm" component={MMM} />
+                <Route path="/scorecard" component={Scorecard} />
                 <Route path="/data" component={DataSources} />
                 <Route path="/ai-analyst" component={AIAnalyst} />
                 <Route path="/about" component={Portfolio} />
