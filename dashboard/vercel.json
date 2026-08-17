@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public",
+  "functions": {
+    "api/ai-chat.ts": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/api/ai-chat", "destination": "/api/ai-chat" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
