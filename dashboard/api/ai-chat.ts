@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import Anthropic from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const SYSTEM_PROMPTS: Record<string, string> = {
   marketing: `You are an AI Analytics Analyst embedded in an executive marketing performance brief.
@@ -64,26 +64,26 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Unknown brief' });
   }
 
-  const messages = [
-    ...(history || []),
-    { role: 'user' as const, content: message },
-  ];
-
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
 
   try {
-    const stream = client.messages.stream({
-      model: 'claude-3-5-haiku-20241022',
+    const stream = await client.chat.completions.create({
+      model: 'gpt-4o-mini',
       max_tokens: 400,
-      system: systemPrompt,
-      messages,
+      stream: true,
+      messages: [
+        { role: 'system', content: systemPrompt },
+        ...(history || []).map(m => ({ role: m.role as 'user' | 'assistant', content: m.content })),
+        { role: 'user', content: message },
+      ],
     });
 
     for await (const chunk of stream) {
-      if (chunk.type === 'content_block_delta' && chunk.delta.type === 'text_delta') {
-        res.write(`data: ${JSON.stringify({ text: chunk.delta.text })}\n\n`);
+      const text = chunk.choices[0]?.delta?.content;
+      if (text) {
+        res.write(`data: ${JSON.stringify({ text })}\n\n`);
       }
     }
     res.write('data: [DONE]\n\n');
