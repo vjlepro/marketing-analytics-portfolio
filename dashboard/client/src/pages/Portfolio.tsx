@@ -1,4 +1,5 @@
-import { ExternalLink, Github, Linkedin, Mail, Phone, MapPin, BarChart3, Brain, Database, TrendingUp, Award, Users, Briefcase } from 'lucide-react';
+import { Link } from 'wouter';
+import { ExternalLink, Github, Linkedin, Mail, Phone, MapPin, BarChart3, Brain, Database, TrendingUp, Award, Briefcase, ClipboardCheck, Sparkles } from 'lucide-react';
 
 const CYAN = "hsl(199 89% 48%)";
 const PURPLE = "hsl(262 80% 65%)";
@@ -55,6 +56,7 @@ const skills = [
   { category: "Platforms & Tools", icon: TrendingUp, items: ["HubSpot", "Salesforce", "R", "MLForecast", "LightGBM", "XGBoost", "Supabase", "Vercel"] },
 ];
 
+// External-link projects
 const projects = [
   {
     title: "Marketing Analytics Platform",
@@ -76,6 +78,26 @@ const projects = [
     tags: ["LightGBM", "MLForecast", "Python", "Colab"],
     href: "https://github.com/vjlepro/marketing-analytics-portfolio",
     color: GREEN,
+  },
+];
+
+// Internal featured tools (link to route, not external URL)
+const featuredTools = [
+  {
+    title: "Analytics Maturity Scorecard",
+    desc: "10-question self-assessment across Measurement, Infrastructure, Decision Culture, and AI maturity. Scores your org, assigns a tier, and delivers personalized recommendations.",
+    tags: ["Interactive Tool", "Thought Leadership", "React"],
+    to: "/scorecard",
+    color: GREEN,
+    icon: ClipboardCheck,
+  },
+  {
+    title: "AI Analyst — Executive Briefs",
+    desc: "Three live executive briefs (marketing performance, pricing strategy, forecast variance) powered by a streaming GPT-4o-mini assistant grounded in each brief's dataset.",
+    tags: ["AI", "GPT-4o-mini", "Streaming", "React"],
+    to: "/ai-analyst",
+    color: PURPLE,
+    icon: Sparkles,
   },
 ];
 
@@ -157,19 +179,60 @@ export default function Portfolio() {
       <div className="flex-1 overflow-y-auto p-8">
         <div className="max-w-3xl space-y-10">
 
-          {/* About this portfolio */}
-          <div className="bg-card border border-border rounded-xl p-5">
-            <div className="flex items-center gap-2 mb-3">
-              <Award size={14} style={{ color: CYAN }} />
-              <span className="text-xs font-semibold text-foreground uppercase tracking-wider">About This Portfolio</span>
+          {/* Featured Interactive Tools */}
+          <div>
+            <SectionTitle><Sparkles size={12} className="inline mr-1.5" />Featured Tools</SectionTitle>
+            <div className="space-y-3">
+              {featuredTools.map((p, i) => (
+                <Link key={i} href={p.to}>
+                  <a className="block bg-card border border-border rounded-lg p-4 hover:border-primary/50 transition-colors group cursor-pointer">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 mb-1">
+                          <p.icon size={13} style={{ color: p.color }} className="flex-shrink-0" />
+                          <span className="text-xs font-semibold text-foreground group-hover:text-primary transition-colors">{p.title}</span>
+                          <span className="ml-2 text-[9px] font-semibold uppercase tracking-widest px-1.5 py-0.5 rounded" style={{ background: `${p.color}20`, color: p.color }}>Live</span>
+                        </div>
+                        <p className="text-[11px] text-muted-foreground leading-relaxed mb-2">{p.desc}</p>
+                        <div className="flex flex-wrap gap-1">
+                          {p.tags.map(t => (
+                            <span key={t} className="text-[9px] px-1.5 py-0.5 rounded bg-secondary text-muted-foreground">{t}</span>
+                          ))}
+                        </div>
+                      </div>
+                      <ExternalLink size={12} className="text-muted-foreground group-hover:text-primary transition-colors flex-shrink-0 mt-0.5" />
+                    </div>
+                  </a>
+                </Link>
+              ))}
             </div>
-            <p className="text-xs text-muted-foreground leading-relaxed">
-              This dashboard showcases end-to-end analytics work built with real synthetic data — from raw pipeline generation
-              through multi-touch attribution, CAC/LTV modeling, and media mix modeling. The <strong className="text-foreground">AI Analyst</strong> page
-              demonstrates an AI-augmented analytics workflow: three executive briefs backed by a streaming Claude AI assistant,
-              grounded in the brief's dataset. Every model and visualization here was designed and built independently to reflect
-              the kind of work I lead day-to-day.
-            </p>
+          </div>
+
+          {/* Portfolio Projects */}
+          <div>
+            <SectionTitle><Github size={12} className="inline mr-1.5" />Portfolio Projects</SectionTitle>
+            <div className="space-y-3">
+              {projects.map((p, i) => (
+                <a key={i} href={p.href} target="_blank" rel="noreferrer"
+                  className="block bg-card border border-border rounded-lg p-4 hover:border-primary/50 transition-colors group">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 mb-1">
+                        <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: p.color }} />
+                        <span className="text-xs font-semibold text-foreground group-hover:text-primary transition-colors">{p.title}</span>
+                      </div>
+                      <p className="text-[11px] text-muted-foreground leading-relaxed mb-2">{p.desc}</p>
+                      <div className="flex flex-wrap gap-1">
+                        {p.tags.map(t => (
+                          <span key={t} className="text-[9px] px-1.5 py-0.5 rounded bg-secondary text-muted-foreground">{t}</span>
+                        ))}
+                      </div>
+                    </div>
+                    <ExternalLink size={12} className="text-muted-foreground group-hover:text-primary transition-colors flex-shrink-0 mt-0.5" />
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Experience */}
@@ -199,6 +262,21 @@ export default function Portfolio() {
             </div>
           </div>
 
+          {/* About this portfolio */}
+          <div className="bg-card border border-border rounded-xl p-5">
+            <div className="flex items-center gap-2 mb-3">
+              <Award size={14} style={{ color: CYAN }} />
+              <span className="text-xs font-semibold text-foreground uppercase tracking-wider">About This Portfolio</span>
+            </div>
+            <p className="text-xs text-muted-foreground leading-relaxed">
+              This dashboard showcases end-to-end analytics work built with real synthetic data — from raw pipeline generation
+              through multi-touch attribution, CAC/LTV modeling, and media mix modeling. The <strong className="text-foreground">AI Analyst</strong> page
+              demonstrates an AI-augmented analytics workflow: three executive briefs backed by a streaming GPT-4o-mini assistant,
+              grounded in the brief's dataset. Every model and visualization here was designed and built independently to reflect
+              the kind of work I lead day-to-day.
+            </p>
+          </div>
+
           {/* Skills */}
           <div>
             <SectionTitle><Brain size={12} className="inline mr-1.5" />Skills &amp; Tools</SectionTitle>
@@ -215,33 +293,6 @@ export default function Portfolio() {
                     ))}
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Projects */}
-          <div>
-            <SectionTitle><Github size={12} className="inline mr-1.5" />Portfolio Projects</SectionTitle>
-            <div className="space-y-3">
-              {projects.map((p, i) => (
-                <a key={i} href={p.href} target="_blank" rel="noreferrer"
-                  className="block bg-card border border-border rounded-lg p-4 hover:border-primary/50 transition-colors group">
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-1">
-                        <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: p.color }} />
-                        <span className="text-xs font-semibold text-foreground group-hover:text-primary transition-colors">{p.title}</span>
-                      </div>
-                      <p className="text-[11px] text-muted-foreground leading-relaxed mb-2">{p.desc}</p>
-                      <div className="flex flex-wrap gap-1">
-                        {p.tags.map(t => (
-                          <span key={t} className="text-[9px] px-1.5 py-0.5 rounded bg-secondary text-muted-foreground">{t}</span>
-                        ))}
-                      </div>
-                    </div>
-                    <ExternalLink size={12} className="text-muted-foreground group-hover:text-primary transition-colors flex-shrink-0 mt-0.5" />
-                  </div>
-                </a>
               ))}
             </div>
           </div>
