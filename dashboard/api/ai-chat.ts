@@ -1,8 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import OpenAI from 'openai';
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
 const SYSTEM_PROMPTS: Record<string, string> = {
   marketing: `You are an AI Analytics Analyst embedded in an executive marketing performance brief.
 
@@ -14,38 +12,31 @@ DATA:
 - Email/CRM: $200K spend, $4.8M revenue (24x ROAS), 3,200 conversions, CPA $63
 - SEO: $800K spend, $2.6M revenue (3.25x ROAS)
 - Partner/Referral: $600K spend, $500K revenue (0.83x ROAS — cash negative)
-- MoM conversions: July 2,800 → August 3,100 (+11%) → September 3,050 (-2%, seasonal)
 - LTV:CAC: Enterprise 8.2x, Mid-Market 4.1x, SMB 1.9x (SMB below 3x threshold)
 - Recommendation: Shift $300K from Partner/Display to Paid Search and Email
 
-Answer like a senior analyst briefing a CMO. Direct, specific, max 3-4 sentences. Translate metrics into decisions.`,
+Answer like a senior analyst briefing a CMO. Direct, specific, max 3-4 sentences.`,
 
   pricing: `You are an AI Analytics Analyst embedded in an executive pricing strategy brief.
 
 DATA:
-- Tiers: Starter $49/mo (elasticity -2.1, highly elastic), Professional $149/mo (elasticity -1.3), Enterprise $499/mo (elasticity -0.6, inelastic)
-- Churn: Starter 8.2%/mo, Professional 3.1%/mo, Enterprise 0.9%/mo
-- LTV: Starter $340, Professional $2,890, Enterprise $33,200
-- A/B test (n=1,200): 10% Pro price increase → -4% conversion, +6.5% net revenue
-- Proposed: Professional $149→$169 (+13.4%), Enterprise $499→$549 (+10%)
-- Revenue impact: +$2.1M ARR at current volume; churn sensitivity: +0.5pp = -$890K ARR
-- 22% of Pro customers have Enterprise-tier usage patterns = $4.8M upsell opportunity
-- Competitor A is 15% higher across all tiers
+- Tiers: Starter $49/mo (elasticity -2.1), Professional $149/mo (elasticity -1.3), Enterprise $499/mo (elasticity -0.6)
+- A/B test: 10% Pro increase → -4% conversion, +6.5% net revenue
+- Proposed: Professional $149→$169, Enterprise $499→$549
+- Revenue impact: +$2.1M ARR; churn sensitivity: +0.5pp = -$890K ARR
+- 22% of Pro customers have Enterprise usage patterns = $4.8M upsell opportunity
 
-Answer like a senior analyst briefing a CFO and CRO. Direct, specific, max 3-4 sentences.`,
+Answer like a senior analyst briefing a CFO. Direct, specific, max 3-4 sentences.`,
 
   forecast: `You are an AI Analytics Analyst embedded in an executive forecast variance brief.
 
 DATA:
-- Q3 Revenue: $22.4M target → $21.1M actual (-$1.3M, -5.8%)
-- New Bookings: $6.8M target → $5.9M actual (-$0.9M). Root cause: 2 lost enterprise deals ($1.1M) in late September
-- Expansion Revenue: $3.2M target → $3.7M actual (+$500K, +15.6%) — upsell campaign worked
-- Churn: $1.2M target → $1.6M actual. 4 mid-market churns; 3 competitive displacement
-- Q4 pipeline: $18.2M (2.7x coverage vs $6.7M target)
-- Q4 forecast: $23.8M. Risk: $2.2M enterprise renewal at risk due to stakeholder change
-- Pipeline velocity: +18% MoM. Demo-to-trial: +9%. Time-to-close: -12 days
+- Q3 Revenue: $22.4M target → $21.1M actual (-5.8%). Root cause: 2 lost enterprise deals late September.
+- Expansion: $3.2M target → $3.7M actual (+15.6%) — upsell campaign outperformed
+- Churn: exceeded target by $400K; 3 of 4 churns were competitive displacement
+- Q4 pipeline: $18.2M (2.7x coverage). Forecast: $23.8M. Risk: $2.2M renewal at risk.
 
-Answer like a senior analyst briefing a CFO and sales leadership. Direct, specific, max 3-4 sentences.`,
+Answer like a senior analyst briefing a CFO. Direct, specific, max 3-4 sentences.`,
 };
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -63,6 +54,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (!systemPrompt) {
     return res.status(400).json({ error: 'Unknown brief' });
   }
+
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    res.setHeader('Content-Type', 'text/event-stream');
+    res.write(`data: ${JSON.stringify({ error: 'Missing OPENAI_API_KEY env var' })}\n\n`);
+    res.end();
+    return;
+  }
+
+  const client = new OpenAI({ apiKey });
 
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
@@ -88,9 +89,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
     res.write('data: [DONE]\n\n');
     res.end();
-  } catch (err) {
-    console.error('AI chat error:', err);
-    res.write(`data: ${JSON.stringify({ error: 'AI service error' })}\n\n`);
+  } catch (err: any) {
+    const msg = err?.message || 'Unknown error';
+    const status = err?.status || 'no-status';
+    console.error('AI chat error:', status, msg);
+    res.write(`data: ${JSON.stringify({ error: `${status}: ${msg}` })}\n\n`);
     res.end();
   }
 }
