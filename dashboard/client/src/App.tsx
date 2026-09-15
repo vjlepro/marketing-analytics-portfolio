@@ -16,6 +16,7 @@ import Scorecard from '@/pages/Scorecard';
 import ABTesting from '@/pages/ABTesting';
 import DataProductSpec from '@/pages/DataProductSpec';
 import MetricGovernance from '@/pages/MetricGovernance';
+import CaseStudy from '@/pages/CaseStudy';
 import NotFound from '@/pages/not-found';
 
 export default function App() {
@@ -38,6 +39,7 @@ export default function App() {
                 <Route path="/ab-testing" component={ABTesting} />
                 <Route path="/data-product-spec" component={DataProductSpec} />
                 <Route path="/metric-governance" component={MetricGovernance} />
+                <Route path="/case-study" component={CaseStudy} />
                 <Route component={NotFound} />
               </Switch>
             </main>

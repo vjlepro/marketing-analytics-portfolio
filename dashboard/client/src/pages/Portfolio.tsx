@@ -1,9 +1,10 @@
 import { Link } from 'wouter';
-import { ExternalLink, Github, Linkedin, Mail, Phone, MapPin, BarChart3, Brain, Database, TrendingUp, Award, Briefcase, ClipboardCheck, Sparkles, FlaskConical, FileText, BookOpen, GraduationCap } from 'lucide-react';
+import { ExternalLink, Github, Linkedin, Mail, Phone, MapPin, BarChart3, Brain, Database, TrendingUp, Award, Briefcase, ClipboardCheck, Sparkles, FlaskConical, FileText, BookOpen, GraduationCap, Search } from 'lucide-react';
 
 const CYAN   = "hsl(199 89% 48%)";
 const PURPLE = "hsl(262 80% 65%)";
 const GREEN  = "hsl(158 64% 52%)";
+const AMBER  = "#f59e0b";
 
 // ── Experience ────────────────────────────────────────────────────────────────
 const experience = [
@@ -84,6 +85,14 @@ const projects = [
 
 // ── Featured Tools (internal routes) ─────────────────────────────────────────
 const featuredTools = [
+  {
+    title: "Case Study: When the Numbers Lie",
+    desc: "A composite investigation: diagnosing a false 30% ROAS drop (ETL failure + UTM bug), cross-validating MMM vs MTA, and building the funnel instrumentation framework that prevents it from happening again.",
+    tags: ["Attribution", "Funnel Instrumentation", "MMM", "Governance"],
+    to: "/case-study",
+    color: AMBER,
+    icon: Search,
+  },
   {
     title: "A/B Testing Framework",
     desc: "Interactive experimentation tool with live statistical analysis, judgment-driven verdicts, and a logged test history across booking, search, and ticketing use cases.",
