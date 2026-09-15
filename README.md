@@ -5,6 +5,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![React](https://img.shields.io/badge/React-Dashboard-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![dbt](https://img.shields.io/badge/dbt-Semantic%20Layer-FF694B?style=flat-square&logo=dbt&logoColor=white)](https://github.com/vjlepro/dbt-marketing-analytics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
 [![Open Issues](https://img.shields.io/github/issues/vjlepro/marketing-analytics-portfolio?style=flat-square)](https://github.com/vjlepro/marketing-analytics-portfolio/issues)
 
@@ -12,9 +13,9 @@
 
 ## 🌐 Live Dashboard
 
-**[→ View Interactive Dashboard](https://marketing-analytics-portfolio-steel.vercel.app)**
+**[→ View Interactive Dashboard](https://portfolio-gilt-chi-84.vercel.app)**
 
-Dark-navy analytics interface with 5 interactive pages — Overview, MTA Attribution, CAC & LTV, MMM Budget Optimizer, and Data Sources.
+Dark-navy analytics interface with 9 interactive pages — Overview, MTA Attribution, CAC & LTV, MMM Budget Optimizer, Data Sources, A/B Testing Framework, Data Product Spec, Metric Governance, and a Case Study.
 
 > **Hosting note:** Deployed permanently on Vercel — free, no expiry, auto-deploys on every git push. Fork this repo and deploy your own copy in minutes.
 
@@ -29,6 +30,7 @@ Dark-navy analytics interface with 5 interactive pages — Overview, MTA Attribu
   - [Multi-Touch Attribution (MTA)](#1-multi-touch-attribution-mta)
   - [Customer Acquisition Cost (CAC)](#2-customer-acquisition-cost--ltv)
   - [Marketing Mix Model (MMM)](#3-marketing-mix-model-mmm)
+- [dbt Semantic Layer](#-dbt-semantic-layer)
 - [Dashboard](#-dashboard)
 - [Notebooks](#-jupyter-notebooks)
 - [Results Summary](#-results-summary)
@@ -214,18 +216,48 @@ def hill_transform(x, k, n=2):
 
 ---
 
+## 🔁 dbt Semantic Layer
+
+**Repo:** [vjlepro/dbt-marketing-analytics](https://github.com/vjlepro/dbt-marketing-analytics)
+
+A companion dbt project that models the same synthetic dataset using production-grade patterns — layered architecture, automated data quality tests, and a fully documented semantic layer.
+
+| Layer | Models | Purpose |
+|---|---|---|
+| **Staging** | `stg_mta_channel_attribution`, `stg_mmm_weekly_decomp`, `stg_mmm_channel_summary`, `stg_cac_by_channel`, `stg_new_customers_monthly` | Standardize and type-cast raw source data |
+| **Marts — Marketing** | `mart_channel_performance`, `mart_mmm_weekly_trends` | Unified MMM + MTA + CAC channel scorecard; rolling weekly aggregates |
+| **Marts — Customers** | `mart_customer_unit_economics` | CAC/LTV efficiency tiers with exec-ready recommendations |
+| **Marts — Finance** | `mart_monthly_revenue_summary` | Monthly finance close table with MoM and YoY growth rates |
+
+**34 automated tests** across all models — `not_null`, `unique`, and `accepted_values` on every primary key and categorical column.
+
+```bash
+# Run the full project
+git clone https://github.com/vjlepro/dbt-marketing-analytics.git
+pip install dbt-duckdb
+dbt seed && dbt run && dbt test
+```
+
+> In production this project would point at Snowflake, BigQuery, or Azure Synapse via a swap of the dbt adapter — all SQL logic is warehouse-agnostic.
+
+---
+
 ## 📊 Dashboard
 
 **Tech stack:** React · Recharts · Tailwind CSS · Vite
 
-**5 interactive pages:**
+**9 interactive pages:**
 1. **Overview** — KPI cards, revenue decomposition waterfall, channel performance matrix
 2. **MTA Attribution** — Side-by-side model comparison, Sankey-style path analysis
 3. **CAC & LTV** — Channel health matrix, cohort retention heatmap, payback curves
 4. **MMM Optimizer** — Adstock/saturation visualizations, budget reallocation waterfall
 5. **Data Sources** — Platform connection guide with real API field references
+6. **A/B Testing Framework** — Live statistical calculator with test history and judgment-driven verdicts
+7. **Data Product Spec** — Confluence-style PRD with Adobe Analytics eVar mapping, star schema ERD, metric SLAs
+8. **Metric Governance** — Searchable KPI dictionary with owner, formula, source table, and governance notes
+9. **Case Study** — Attribution investigation (ETL failure + UTM gap diagnosis) and funnel instrumentation framework
 
-**Live URL:** [marketiq-marketing-analytics](https://marketing-analytics-portfolio-steel.vercel.app)
+**Live URL:** [portfolio-gilt-chi-84.vercel.app](https://portfolio-gilt-chi-84.vercel.app)
 
 > To self-host: see [Deployment](#-deployment) below.
 
@@ -351,6 +383,7 @@ Works for the notebooks (rendered natively). The interactive React dashboard req
 | **Attribution Methods** | Shapley Value (Monte Carlo), Markov Chain, First/Last/Linear/Time Decay/U-Shape |
 | **MMM Techniques** | Geometric Adstock, Hill Saturation, OLS Regression, SLSQP Budget Optimization |
 | **Data Engineering** | HubSpot API, Salesforce SOQL, GA4 BigQuery Export, Google Ads GAQL, Meta Ads Insights, NetSuite SuiteAnalytics |
+| **dbt / Semantic Layer** | Layered architecture (staging → marts), data quality tests, semantic YAML documentation, DuckDB adapter |
 | **Python** | pandas, numpy, scikit-learn, scipy, matplotlib, seaborn, nbformat |
 | **Frontend** | React, Recharts, Tailwind CSS, Vite |
 | **Notebooks** | Jupyter, Google Colab |
@@ -361,13 +394,13 @@ Works for the notebooks (rendered natively). The interactive React dashboard req
 ## 👤 Author
 
 **Vincent Lepore**  
-Data & Analytics Leader · 15+ years in marketing science, attribution, and revenue modeling
+Analytics Product Owner · Data & Analytics Leader · 15+ years in marketing science, attribution, data products, and revenue modeling
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/vincent-lepore-64873a58/)
 - 💼 [GitHub](https://github.com/vjlepro)
 - 📍 Fort Lauderdale, FL
 
-> *Built to showcase production-quality marketing analytics workflows for data science & analytics leadership roles.*
+> *Built to showcase production-quality analytics work across modeling, data product ownership, semantic layer design, and AI-enabled analytics — targeting Director, VP, and Technical Product Owner roles.*
 
 ---
 
@@ -378,5 +411,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <sub>Built with Python · React · Recharts · Tailwind · Jupyter</sub>
+  <sub>Built with Python · dbt · React · Recharts · Tailwind · Jupyter · DuckDB</sub>
 </p>
