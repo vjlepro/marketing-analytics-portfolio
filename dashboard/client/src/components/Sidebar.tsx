@@ -2,7 +2,7 @@ import { Link, useLocation } from 'wouter';
 import {
   BarChart3, GitBranch, TrendingDown, Activity, Database,
   ChevronRight, Sparkles, Home, ClipboardCheck,
-  FlaskConical, FileText, BookOpen, Search
+  FlaskConical, FileText, BookOpen, Search, Layers
 } from 'lucide-react';
 
 const ABOUT_NAV = [
@@ -22,6 +22,7 @@ const DATA_PRODUCTS_NAV = [
   { href: '/data-product-spec', label: 'Product Spec',      icon: FileText,     desc: 'Data Product PRD' },
   { href: '/metric-governance', label: 'Metric Governance', icon: BookOpen,     desc: 'Semantic Layer' },
   { href: '/case-study',        label: 'Case Study',        icon: Search,       desc: 'Attribution + Funnel' },
+  { href: '/dbt',               label: 'dbt Project',       icon: Layers,       desc: 'Semantic Layer · GitHub' },
 ];
 
 const AI_NAV = [

@@ -1,5 +1,5 @@
 import { Link } from 'wouter';
-import { ExternalLink, Github, Linkedin, Mail, Phone, MapPin, BarChart3, Brain, Database, TrendingUp, Award, Briefcase, ClipboardCheck, Sparkles, FlaskConical, FileText, BookOpen, GraduationCap, Search } from 'lucide-react';
+import { ExternalLink, Github, Linkedin, Mail, Phone, MapPin, BarChart3, Brain, Database, TrendingUp, Award, Briefcase, ClipboardCheck, Sparkles, FlaskConical, FileText, BookOpen, GraduationCap, Search, Layers } from 'lucide-react';
 
 const CYAN   = "hsl(199 89% 48%)";
 const PURPLE = "hsl(262 80% 65%)";
@@ -61,6 +61,13 @@ const skills = [
 // ── GitHub Projects ───────────────────────────────────────────────────────────
 const projects = [
   {
+    title: "dbt Marketing Analytics — Semantic Layer",
+    desc: "Production-style dbt project: staging → mart architecture over MMM, MTA, and CAC/LTV data. 9 models, 34 automated data quality tests, full YAML semantic documentation, and a dbt-DuckDB setup runnable locally or pointed at Snowflake/BigQuery/Azure.",
+    tags: ["dbt", "SQL", "Semantic Layer", "DuckDB", "Data Quality"],
+    href: "https://github.com/vjlepro/dbt-marketing-analytics",
+    color: AMBER,
+  },
+  {
     title: "Marketing Analytics Platform",
     desc: "Full-stack MMM, MTA, CAC, and CLV platform with HubSpot, Salesforce, and GA4 pipelines. Adstock/Hill saturation modeling, Shapley/Markov attribution.",
     tags: ["MMM", "MTA", "Python", "React"],
@@ -85,6 +92,14 @@ const projects = [
 
 // ── Featured Tools (internal routes) ─────────────────────────────────────────
 const featuredTools = [
+  {
+    title: "dbt Semantic Layer",
+    desc: "Staging → mart dbt project over MMM, MTA, and CAC/LTV data. 9 models, 34 automated data quality tests, full YAML documentation. Warehouse-agnostic — runs locally on DuckDB or pointed at Snowflake, BigQuery, or Azure.",
+    tags: ["dbt", "SQL", "Semantic Layer", "Data Quality"],
+    to: "/dbt",
+    color: AMBER,
+    icon: Layers,
+  },
   {
     title: "Case Study: When the Numbers Lie",
     desc: "A composite investigation: diagnosing a false 30% ROAS drop (ETL failure + UTM bug), cross-validating MMM vs MTA, and building the funnel instrumentation framework that prevents it from happening again.",
