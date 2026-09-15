@@ -13,6 +13,9 @@ import DataSources from '@/pages/DataSources';
 import AIAnalyst from '@/pages/AIAnalyst';
 import Portfolio from '@/pages/Portfolio';
 import Scorecard from '@/pages/Scorecard';
+import ABTesting from '@/pages/ABTesting';
+import DataProductSpec from '@/pages/DataProductSpec';
+import MetricGovernance from '@/pages/MetricGovernance';
 import NotFound from '@/pages/not-found';
 
 export default function App() {
@@ -32,6 +35,9 @@ export default function App() {
                 <Route path="/data" component={DataSources} />
                 <Route path="/ai-analyst" component={AIAnalyst} />
                 <Route path="/about" component={Portfolio} />
+                <Route path="/ab-testing" component={ABTesting} />
+                <Route path="/data-product-spec" component={DataProductSpec} />
+                <Route path="/metric-governance" component={MetricGovernance} />
                 <Route component={NotFound} />
               </Switch>
             </main>

@@ -18,3 +18,4 @@ dist/
 # data/raw/*.csv
 data/raw/*.csv
 data/raw/*.csv
+.vercel
